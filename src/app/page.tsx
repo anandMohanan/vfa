@@ -10,10 +10,10 @@ export default function Home() {
     return (
         <main className="relative flex flex-col items-center justify-between ">
             <HeaderSection />
-            <TopFeaturesSection />
+            {/* <TopFeaturesSection />
             <OperationAutomationSection />
             <FeaturesImprovementSection />
-            <ActivateSection />
+            <ActivateSection /> */}
         </main>
     );
 }

@@ -108,14 +108,7 @@ background: linear-gradient(92.46deg, #698AFF 38.02%, #3F5399 76.42%);
 
 .feature_box{
 /* Frame 78 */
-
-box-sizing: border-box;
-width: 1343px;
-height: 338px;
-left: calc(50% - 1343px/2);
-
 background: linear-gradient(93.63deg, #0F1020 -0.8%, #050505 27.29%, #000000 53.91%, #030B10 79.05%, #040A2A 97.77%, #04142D 97.78%);
-border-radius: 24px;
 }
 
 
@@ -124,6 +117,15 @@ border-radius: 24px;
 mix-blend-mode: normal;
 box-shadow: 2px 4px 25.9px rgba(217, 227, 255, 0.11);
 backdrop-filter: blur(10px);
-border-radius: 10px;
+background:linear-gradient(
+  97.31deg,                    /* Angle of the gradient */
+  rgba(148, 165, 255, 0.5) 3.97%,  /* First color stop with less transparency */
+  rgba(124, 94, 210, 0.5) 58.6%,    /* Second color stop */
+  rgba(32, 49, 137, 0.5) 99.91%     /* Third color stop */
+)
+    
 
 }
+
+
+

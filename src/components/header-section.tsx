@@ -1,55 +1,67 @@
-"use client"
-
-import Image from "next/image"
 import { Badge } from "./ui/badge"
-import Lottie from "lottie-react"
 import ani from "../../public/flow-4.json"
 import { Button } from "./ui/button"
+import { cn } from "@/lib/utils"
+import { primary_font } from "@/lib/font"
+import { LottieAnimation } from "./animation"
 
 export const HeaderSection = () => {
     return (
-        <header className="flex min-h-screen justify-center items-center header_section w-full m-10 ">
-            <div className="w-[1235px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-                <div className="w-[747px] flex flex-col items-start justify-start gap-[24.5px] max-w-full">
-                    <div className="self-stretch flex flex-row items-start justify-center py-0 pr-[21px] pl-5 box-border max-w-full">
-                        <div className="flex flex-row items-start justify-start relative max-w-full">
-                            <Badge variant={"outline"} className="text-white border-none text-2xl p-2 px-6
-shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] box-border 
- border-[0.3px] border-solid border-cornflowerblue-300 hover:bg-darkslategray-300 hover:box-border hover:border-[0.3px] 
-                  hover:border-solid hover:border-cornflowerblue-600
-                            "> Meet Automated Voice AI </Badge>
-                        </div>
-                    </div>
-                    <h1 className="text-white font-light  md:text-4xl lg:text-5xl text-center">
-                        Meet Your
+        <header className="header_section w-full min-h-screen mt-5 md:mt-0 ">
+            <div className="bg_grid flex flex-col items-start justify-start gap-6">
+                {/* Top Button */}
+                <div className=" lg:w-[50rem] h-12 relative m-auto flex flex-col justify-center items-center  ">
+                    <div className="line hidden  md:block absolute md:w-[50rem] md:h-[0.6px] 
+                    bg-gradient-to-r from-[#000] via-[#3f5399] to-[#000]
+                    "/>
+                    <Badge
+                        variant={"outline"}
+                        className={cn("text-white lg:absolute text-sm md:text-lg p-2 px-8",
+                            "bg-black border-[0.3px]",
+                            " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
+                            "hover:border-cornflowerblue-600", primary_font.className)}>
+                        Meet Automated Voice AI
+                    </Badge>
+                </div>
+
+                {/* Hero */}
+                <div className="md:max-w-[50%] max-w-[80%] my-4 m-auto">
+                    <h1 className={cn("text-white font-light  text-xl  md:text-4xl lg:text-5xl text-center", primary_font.className)}>
+                        Meet Your{" "}
                         <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                             AI Agents
                         </span>
                         <span>{` That Listen And Speak Anytime & Anywhere`}</span>
                     </h1>
-                    <p className="text-white tracking-tight text-center text-xl leading-7 [&:not(:first-child)]:mt-6">Imagine a team that never clocks out.
-                        A customer service agent that’s all ears, 24/7. A sales assistant that’s always fine-tuning its pitch.
-                        That’s VoiceFirst AI—your always-available,
-                        voice-driven team multiplier.</p>
-                    <div className="flex items-center justify-center align-middle">
-                        <Lottie animationData={ani} loop={false} className="text-center w-60 flex justify-center items-center align-middle" />
-                    </div>
-                    <Button className="rounded-3xl ">Activate your AI</Button>
+                    <p className={cn("text-white tracking-tight text-center md:text-xl text-sm leading-7 [&:not(:first-child)]:mt-6", primary_font.className)}>
+                        Imagine a team that never clocks out. A customer service agent
+                        that’s all ears, 24/7. A sales assistant that’s always fine-tuning
+                        its pitch. That’s VoiceFirst AI—your always-available, voice-driven
+                        team multiplier.
+                    </p>
                 </div>
+
+                {/* SVG */}
+                <div className="m-auto relative h-72 overflow-hidden w-full">
+                    <LottieAnimation
+                        ani={ani}
+                        className="w-[500px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                    />
+                </div>
+                {/* CTA */}
+                <Button className={cn("rounded-full m-auto px-16 py-8 text-2xl",
+                    "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
+                    " overflow-hidden whitespace-nowrap",
+                    "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
+                    " hover:border-[1.5px]  hover:border-cornflowerblue-600",
+                    "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                    "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
+                    primary_font.className
+                )}>
+                    Activate your AI
+                </Button>
             </div>
-        </header>
-    )
+        </header >
+    );
 }
 
-// background: linear-gradient(92.46deg, #698AFF 38.02%, #3F5399 76.42%);
-
-// <svg width="584" height="2" viewBox="0 0 584 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-// <path d="M0 1H584" stroke="url(#paint0_radial_29_639)" />
-// <defs>
-// <radialGradient id="paint0_radial_29_639" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(292 1.5) scale(422 0.722603)">
-// <stop stop-color="#454CF3" />
-// <stop offset="1" stop-color="#7286FF" stop-opacity="0" />
-// </radialGradient>
-// </defs>
-// </svg>
-//

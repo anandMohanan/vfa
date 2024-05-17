@@ -47,6 +47,21 @@ const config = {
                     "500": "#6e80db",
                     "600": "#6173cc",
                 },
+                darkslategray: {
+                    "100": "#474747",
+                    "200": "#404040",
+                    "300": "#333",
+                    "400": "rgba(51, 51, 51, 0.1)",
+                    "500": "rgba(51, 51, 51, 0.09)",
+                },
+                whitesmoke: "#eaecf0",
+                darkslateblue: {
+                    "100": "#4658b6",
+                    "200": "#143d8d",
+                    "300": "#273373",
+                },
+                mediumslateblue: "#696ef0",
+                lightskyblue: "#adbfff",
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
                     foreground: "hsl(var(--primary-foreground))",

@@ -1,9 +1,9 @@
+
 import { ActivateSection } from "@/components/activate-section";
 import { FeaturesImprovementSection } from "@/components/features-improvement";
-import { FooterSection } from "@/components/footer";
 import { HeaderSection } from "@/components/header-section";
-import { Navbar } from "@/components/navbar";
 import { OperationAutomationSection } from "@/components/operation-automation";
+import { OperationEfficiencySection } from "@/components/operation-efficiency";
 import { TopFeaturesSection } from "@/components/top-features";
 
 export default function Home() {
@@ -12,8 +12,9 @@ export default function Home() {
             <HeaderSection />
             <TopFeaturesSection />
             <OperationAutomationSection />
-            <FeaturesImprovementSection />
+            <OperationEfficiencySection />
             <ActivateSection />
+
         </main>
     );
 }

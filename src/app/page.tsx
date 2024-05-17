@@ -12,6 +12,7 @@ export default function Home() {
             <HeaderSection />
             <TopFeaturesSection />
             <OperationAutomationSection />
+            <FeaturesImprovementSection />
             <OperationEfficiencySection />
             <ActivateSection />
 

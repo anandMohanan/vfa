@@ -38,7 +38,7 @@ export const OperationEfficiencySection = () => {
         },
     ]
     return (
-        <section className="md:p-10">
+        <section className="md:p-10 relative">
             <div className="flex flex-col gap-5 items-center justify-center">
                 <Button className={cn(" md:text-xl text-sm rounded-full  text-white bg-black w-fit",
                     "border border-cornflowerblue-300",

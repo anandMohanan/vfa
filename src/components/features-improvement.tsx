@@ -40,9 +40,9 @@ export const FeaturesImprovementSection = () => {
         },
     ]
     return (
-        <section className="relative h-screen md:p-10 flex flex-col items-center">
-            <div className="relative feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
-                <div className="absolute  flex  flex-col p-10 gap-5  justify-center ">
+        <section className="relative min-h-screen  md:p-10 flex flex-col items-center">
+            <div className="relative md:block feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
+                <div className="md:absolute  flex  flex-col p-10 gap-5  justify-center ">
                     <Button className={cn(" md:text-xl text-sm  text-white bg-black w-fit",
                         "border border-cornflowerblue-300",
                         "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
@@ -77,7 +77,7 @@ export const FeaturesImprovementSection = () => {
                 </ div>
             </div>
 
-            <div className="absolute top-[28%]  grid grid-cols-1 md:grid-cols-3 gap-4 md:p-8  ">
+            <div className="relative md:absolute top-[28%]  grid grid-cols-1 md:grid-cols-3 gap-4 md:p-8 mb-10 ">
                 {
                     FeaturesInfo.map((item, id) => {
                         return (

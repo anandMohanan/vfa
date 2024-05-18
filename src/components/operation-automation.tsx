@@ -67,7 +67,7 @@ export const OperationAutomationSection = () => {
                                         </span>
                                         collaboration
                                     </h3>
-                                    <p className={cn("md:text-xl text-md text-center",
+                                    <p className={cn("md:text-xl text-md md:text-left text-center",
                                         "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
                                         Enhance team communication and process flow, as our AI
                                         smoothly integrates with and automates your operational

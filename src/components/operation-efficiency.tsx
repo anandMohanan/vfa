@@ -81,7 +81,7 @@ export const OperationEfficiencySection = () => {
                     }
                 </div>
                 <div className="z-100 lg:block hidden">
-                    <Image src="/efficiency.png" width={800} height={800} />
+                    <Image alt="efficiency" src="/efficiency.png" width={800} height={800} />
                 </div>
                 <div className="">
                     {

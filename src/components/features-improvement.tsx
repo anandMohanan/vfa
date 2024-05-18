@@ -83,11 +83,11 @@ export const FeaturesImprovementSection = () => {
                         return (
                             <div key={id} className="card_border mx-2 p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)]">
-                                <Card key={id} className="bg-black h-[225px] w-[400px] border-none  rounded-2xl ">
+                                <Card key={id} className="bg-black md:h-[225px] md:w-[400px] w-[300px] h-[200px] border-none  rounded-2xl ">
                                     <CardHeader>
                                         {item.icon}
-                                        <CardTitle className={cn("text-white", primary_font.className)}>{item.header}</CardTitle>
-                                        <CardDescription className={cn("text-lg text-whitesmoke", secondary_jakarta.className)}>
+                                        <CardTitle className={cn("text-white md:text-xl text-md", primary_font.className)}>{item.header}</CardTitle>
+                                        <CardDescription className={cn("md:text-lg text-sm py-2 text-whitesmoke", secondary_jakarta.className)}>
                                             {item.description}
                                         </CardDescription>
                                     </CardHeader>

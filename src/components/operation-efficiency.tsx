@@ -5,6 +5,7 @@ import { Button } from "./ui/button"
 import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card"
+import Image from "next/image"
 
 
 
@@ -52,7 +53,7 @@ export const OperationEfficiencySection = () => {
                 </Button>
                 <h3 className={cn("text-white lg:text-3xl text-lg", primary_font.className)}>Operation Efficieny Reimagined </h3>
             </div>
-            <div className="p-10 flex md:flex-row flex-col ">
+            <div className="p-10 flex md:flex-row flex-col">
 
                 <div className="">
                     {
@@ -80,7 +81,7 @@ export const OperationEfficiencySection = () => {
                     }
                 </div>
                 <div className="z-100 lg:block hidden">
-                    <OperationEfficienyIcon />
+                    <Image src="/efficiency.png" width={800} height={800} />
                 </div>
                 <div className="">
                     {

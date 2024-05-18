@@ -40,8 +40,8 @@ export const FeaturesImprovementSection = () => {
         },
     ]
     return (
-        <section className="relative  h-screen md:p-10 flex flex-col items-center">
-            <div className="relative feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen h-full min-h-full ">
+        <section className="relative h-screen md:p-10 flex flex-col items-center">
+            <div className="relative feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
                 <div className="absolute  flex  flex-col p-10 gap-5  justify-center ">
                     <Button className={cn(" md:text-xl text-sm  text-white bg-black w-fit",
                         "border border-cornflowerblue-300",
@@ -58,7 +58,7 @@ export const FeaturesImprovementSection = () => {
                         Talk to Your Customers Right Away
                     </h3>
                 </div>
-                <div className=" absolute flex w-full justify-between h-full items-end ">
+                <div className=" absolute flex w-full justify-between  items-end ">
                     <svg className="hidden md:block" width="339" height="298" viewBox="0 0 339 298" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.5">
                             <circle cx="282" cy="282" r="281.875" transform="matrix(-1 0 0 1 339 0)" stroke="#D9D9D9" stroke-width="0.25" />

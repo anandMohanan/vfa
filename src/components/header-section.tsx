@@ -7,8 +7,8 @@ import { LottieAnimation } from "./animation"
 
 export const HeaderSection = () => {
     return (
-        <header className="header_section w-full min-h-screen mt-5 md:mt-0 ">
-            <div className="bg_grid flex flex-col items-start justify-start gap-6">
+        <header className=" header_section w-full min-h-screen mt-5 md:mt-0 ">
+            <div className=" bg_grid flex flex-col  items-start justify-start gap-6">
                 {/* Top Button */}
                 <div className=" lg:w-[50rem] h-12 relative m-auto flex flex-col justify-center items-center  ">
                     <div className="line hidden  md:block absolute md:w-[50rem] md:h-[0.6px] 

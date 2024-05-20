@@ -92,10 +92,15 @@ border-image-source:linear-gradient(97.31deg, #94A5FF 3.97%, #7C5ED2 58.6%, #203
 
 .header_section{
 background: linear-gradient(180deg, #000000 0%, #070C24 100%);
-overflow: hidden;
+/* overflow: hidden; */
+}
+
+.top_section{
+background: linear-gradient(180deg, #070C24 0%, #000000 100%);
 }
 
 .bg_grid{
+/* background: linear-gradient(180deg, #000000 0%, #070C24 100%); */
   background-image: url('/grid.png');
   background-repeat: no-repeat;
   background-size: cover;

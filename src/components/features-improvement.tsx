@@ -41,9 +41,9 @@ export const FeaturesImprovementSection = () => {
     ]
     return (
         <section className="relative min-h-screen  md:p-10 flex flex-col items-center">
-            <div className="relative md:block feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
+            <div className="relative md:block  feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
                 <div className="md:absolute  flex  flex-col p-10 gap-5  justify-center ">
-                    <Button className={cn(" md:text-xl text-sm  text-white bg-black w-fit",
+                    <Button className={cn(" md:text-xl text-sm md:text-left text-center text-white bg-black w-fit",
                         "border border-cornflowerblue-300",
                         "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                         " overflow-hidden whitespace-nowrap",
@@ -54,7 +54,7 @@ export const FeaturesImprovementSection = () => {
                         "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", primary_font.className)}>
                         Features Improvement
                     </Button>
-                    <h3 className={cn("md:text-4xl text-md font-semibold text-white", primary_font.className)}>
+                    <h3 className={cn("md:text-4xl text-center md:text-left  text-md font-semibold text-white", primary_font.className)}>
                         Talk to Your Customers Right Away
                     </h3>
                 </div>

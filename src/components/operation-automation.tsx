@@ -50,6 +50,8 @@ export const OperationAutomationSection = () => {
                  w-full  flex lg:flex-row flex-col items-start justify-center
                md:p-10 
                p-6
+               mt-6
+               md:mt-0
                 max-w-full md:border-[0.5px]  border-gray-100 border:none ">
                     <div className="md:w-[575px] flex flex-col items-start justify-start md:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl">

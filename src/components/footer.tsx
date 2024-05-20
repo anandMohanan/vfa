@@ -38,7 +38,7 @@ export const FooterSection = () => {
                             href="#"
                             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
                         >
-                            hello@gmail.com
+                            xyz@voicefirstai.com
                         </a>
                     </div>
 
@@ -49,7 +49,7 @@ export const FooterSection = () => {
                             href="#"
                             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
                         >
-                            7448506511
+                            +1 123 456 7890
                         </a>
                     </div>
                 </div>

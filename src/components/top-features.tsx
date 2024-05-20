@@ -13,10 +13,10 @@ export const TopFeaturesSection = () => {
     return (
 
         <section className=" w-full p-10 ">
-            <div className="relative hidden flex items-center justify-center m-auto p-8">
+            <div className="relative hidden md:flex items-center justify-center m-auto p-8">
                 <Badge
                     variant={"outline"}
-                    className={cn("text-white hidden absolute z-10 text-sm md:text-lg p-2 px-8",
+                    className={cn("text-white hidden md:block absolute z-10 text-sm md:text-lg p-2 px-8",
                         "bg-black border-[0.3px] ",
                         " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
                         "hover:border-cornflowerblue-600", primary_font.className)}>

@@ -54,73 +54,8 @@ export const FooterSection = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-2">
-                    <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Company</h3>
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Blog
-                        </a>
-                    </div>
 
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Careers
-                        </a>
-                    </div>
-
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Pricing
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-2">
-                    <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Resources</h3>
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Documentation
-                        </a>
-                    </div>
-
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Papers
-                        </a>
-                    </div>
-
-                    <div>
-                        <a
-                            rel="noreferrer noopener"
-                            href="#"
-                            className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-                        >
-                            Presentation
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-2 col-span-2">
+                <div className="flex flex-col gap-2 md:col-start-5 md:col-span-3 col-span-4">
                     <h3 className={cn("text-3xl text-white mb-8", primary_font.className)}>Get started with personal AI Manager now </h3>
                     <div className={cn("flex flex-row ", secondary_jakarta.className)}>
                         <Button variant="default" className="rounded-3xl " size={"lg"}>Try Voicefirst</Button>
@@ -132,3 +67,49 @@ export const FooterSection = () => {
         </footer>
     );
 };
+// <div className="flex flex-col gap-2"> <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Company</h3> <div> <a rel="noreferrer noopener" href="#" className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)} > Blog </a> </div> <div> <a rel="noreferrer noopener" href="#" className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)} > Careers </a>
+//     </div>
+//
+//     <div>
+//         <a
+//             rel="noreferrer noopener"
+//             href="#"
+//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
+//         >
+//             Pricing
+//         </a>
+//     </div>
+// </div>
+//
+// <div className="flex flex-col gap-2">
+//     <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Resources</h3>
+//     <div>
+//         <a
+//             rel="noreferrer noopener"
+//             href="#"
+//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
+//         >
+//             Documentation
+//         </a>
+//     </div>
+//
+//     <div>
+//         <a
+//             rel="noreferrer noopener"
+//             href="#"
+//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
+//         >
+//             Papers
+//         </a>
+//     </div>
+//
+//     <div>
+//         <a
+//             rel="noreferrer noopener"
+//             href="#"
+//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
+//         >
+//             Presentation
+//         </a>
+//     </div>
+// </div>

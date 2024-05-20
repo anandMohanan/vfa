@@ -39,7 +39,7 @@ export const OperationAutomationSection = () => {
             </div>
             <div className="relative max-w-full mt-10 ">
                 <Button className=
-                    {cn("  bg-[transparent] absolute top-[-20px] left-[80px] md:top-[-20px] md:left-[544px]",
+                    {cn("  bg-[transparent] absolute top-[-20px] left-[60px] md:top-[-20px] md:left-[544px]",
                         "shadow - [0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded - 3xl",
                         "     [background:linear-gradient(97.31deg,_#b68bfc,_#7354ef_47.79%,_#5e25ff)] overflow-hidden",
                         "whitespace-nowrap z-[1] border-[0.3px] border-solid border-black hover:bg-darkslategray-500",
@@ -48,7 +48,8 @@ export const OperationAutomationSection = () => {
                 </Button>
                 <div className="rounded-xl 
                  w-full  flex lg:flex-row flex-col items-start justify-center
-               p-10 
+               md:p-10 
+               p-6
                 max-w-full md:border-[0.5px]  border-gray-100 border:none ">
                     <div className="md:w-[575px] flex flex-col items-start justify-start md:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl">

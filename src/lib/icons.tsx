@@ -72,37 +72,32 @@ export const RefreshIcon = () => {
 
 export const OperationEfficienyIcon = () => {
     return (
-
-        <svg width="800" height="500" viewBox="0 0 627 360" fill="none" xmlns="http://www.w3.org/2000/svg" className="" >
-            <path d="M627 48H546.5C542.634 48 539.5 51.134 539.5 55V167.5C539.5 171.366 536.366 174.5 532.5 174.5H481.5" stroke="url(#paint0_linear_0_1)" />
-            <path d="M0 48H80.5C84.366 48 87.5 51.134 87.5 55V167.5C87.5 171.366 90.634 174.5 94.5 174.5H145.5" stroke="url(#paint1_linear_0_1)" />
-            <path d="M627 328.5H546.5C542.634 328.5 539.5 325.366 539.5 321.5V209C539.5 205.134 536.366 202 532.5 202H481.5" stroke="url(#paint2_linear_0_1)" />
-            <path d="M0 328.5H80.5C84.366 328.5 87.5 325.366 87.5 321.5V209C87.5 205.134 90.634 202 94.5 202H145.5" stroke="url(#paint3_linear_0_1)" />
-            <rect x="141.25" y="0.25" width="359.5" height="359.5" rx="179.75" fill="black" />
-            <rect x="141.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" stroke-width="0.5" />
+        <svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" fill="black" />
+            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" stroke-width="0.5" />
             <g filter="url(#filter0_di_0_1)">
-                <rect x="203" y="61" width="237" height="237" rx="118.5" fill="#050505" />
-                <rect x="203.5" y="61.5" width="236" height="236" rx="118" stroke="url(#paint4_linear_0_1)" />
+                <rect x="62" y="61" width="237" height="237" rx="118.5" fill="#050505" />
+                <rect x="62.5" y="61.5" width="236" height="236" rx="118" stroke="url(#paint0_linear_0_1)" />
                 <g filter="url(#filter1_d_0_1)">
                     <g filter="url(#filter2_d_0_1)">
-                        <rect x="268" y="170" width="12" height="19" rx="6" fill="url(#paint5_linear_0_1)" />
+                        <rect x="127" y="170" width="12" height="19" rx="6" fill="url(#paint1_linear_0_1)" />
                     </g>
                     <g filter="url(#filter3_d_0_1)">
-                        <rect x="292" y="170" width="12" height="19" rx="6" fill="url(#paint6_linear_0_1)" />
+                        <rect x="151" y="170" width="12" height="19" rx="6" fill="url(#paint2_linear_0_1)" />
                     </g>
                     <g filter="url(#filter4_d_0_1)">
-                        <rect x="316" y="170" width="12" height="19" rx="6" fill="url(#paint7_linear_0_1)" />
+                        <rect x="175" y="170" width="12" height="19" rx="6" fill="url(#paint3_linear_0_1)" />
                     </g>
                     <g filter="url(#filter5_d_0_1)">
-                        <rect x="340" y="170" width="12" height="19" rx="6" fill="url(#paint8_linear_0_1)" />
+                        <rect x="199" y="170" width="12" height="19" rx="6" fill="url(#paint4_linear_0_1)" />
                     </g>
                     <g filter="url(#filter6_d_0_1)">
-                        <rect x="364" y="170" width="12" height="19" rx="6" fill="url(#paint9_linear_0_1)" />
+                        <rect x="223" y="170" width="12" height="19" rx="6" fill="url(#paint5_linear_0_1)" />
                     </g>
                 </g>
             </g>
             <defs>
-                <filter id="filter0_di_0_1" x="169.1" y="27.1" width="306.8" height="306.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter0_di_0_1" x="28.1" y="27.1" width="306.8" height="306.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="1" dy="1" />
@@ -118,7 +113,7 @@ export const OperationEfficienyIcon = () => {
                     <feColorMatrix type="matrix" values="0 0 0 0 0.348003 0 0 0 0 0.431871 0 0 0 0 0.879167 0 0 0 0.12 0" />
                     <feBlend mode="normal" in2="shape" result="effect2_innerShadow_0_1" />
                 </filter>
-                <filter id="filter1_d_0_1" x="220.5" y="75.5" width="212.703" height="212.703" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter1_d_0_1" x="79.5" y="75.5" width="212.703" height="212.703" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="5" dy="2" />
@@ -128,7 +123,7 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter2_d_0_1" x="264.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter2_d_0_1" x="123.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
@@ -138,7 +133,7 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter3_d_0_1" x="288.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter3_d_0_1" x="147.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
@@ -148,7 +143,7 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter4_d_0_1" x="312.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter4_d_0_1" x="171.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
@@ -158,7 +153,7 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter5_d_0_1" x="336.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter5_d_0_1" x="195.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
@@ -168,7 +163,7 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter6_d_0_1" x="360.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter6_d_0_1" x="219.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
@@ -178,48 +173,34 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <linearGradient id="paint0_linear_0_1" x1="554.25" y1="48" x2="554.25" y2="174.5" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#697FF0" />
-                    <stop offset="1" stop-color="#0B225C" />
-                </linearGradient>
-                <linearGradient id="paint1_linear_0_1" x1="72.75" y1="48" x2="72.75" y2="174.5" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#697FF0" />
-                    <stop offset="1" stop-color="#0B225C" />
-                </linearGradient>
-                <linearGradient id="paint2_linear_0_1" x1="554.25" y1="328.5" x2="554.25" y2="202" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#697FF0" />
-                    <stop offset="1" stop-color="#0B225C" />
-                </linearGradient>
-                <linearGradient id="paint3_linear_0_1" x1="72.75" y1="328.5" x2="72.75" y2="202" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#697FF0" />
-                    <stop offset="1" stop-color="#0B225C" />
-                </linearGradient>
-                <linearGradient id="paint4_linear_0_1" x1="171.5" y1="-73" x2="351" y2="257" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint0_linear_0_1" x1="30.5" y1="-73" x2="210" y2="257" gradientUnits="userSpaceOnUse">
                     <stop stop-color="white" />
                     <stop offset="1" stop-color="white" stop-opacity="0" />
                 </linearGradient>
-                <linearGradient id="paint5_linear_0_1" x1="274" y1="170" x2="274" y2="189" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint1_linear_0_1" x1="133" y1="170" x2="133" y2="189" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#4F67E7" />
                     <stop offset="1" stop-color="#2C3981" />
                 </linearGradient>
-                <linearGradient id="paint6_linear_0_1" x1="298" y1="170" x2="298" y2="189" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint2_linear_0_1" x1="157" y1="170" x2="157" y2="189" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#4F67E7" />
                     <stop offset="1" stop-color="#2C3981" />
                 </linearGradient>
-                <linearGradient id="paint7_linear_0_1" x1="322" y1="170" x2="322" y2="189" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint3_linear_0_1" x1="181" y1="170" x2="181" y2="189" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#4F67E7" />
                     <stop offset="1" stop-color="#2C3981" />
                 </linearGradient>
-                <linearGradient id="paint8_linear_0_1" x1="346" y1="170" x2="346" y2="189" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint4_linear_0_1" x1="205" y1="170" x2="205" y2="189" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#4F67E7" />
                     <stop offset="1" stop-color="#2C3981" />
                 </linearGradient>
-                <linearGradient id="paint9_linear_0_1" x1="370" y1="170" x2="370" y2="189" gradientUnits="userSpaceOnUse">
+                <linearGradient id="paint5_linear_0_1" x1="229" y1="170" x2="229" y2="189" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#4F67E7" />
                     <stop offset="1" stop-color="#2C3981" />
                 </linearGradient>
             </defs>
         </svg>
+
+
     )
 }
 

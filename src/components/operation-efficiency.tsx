@@ -83,7 +83,10 @@ export const OperationEfficiencySection = () => {
                 <div className="z-100 lg:block hidden">
                     <Image alt="efficiency" src="/efficiency.png" width={800} height={800} />
                 </div>
-                <div className="">
+                <div className="z-100 md:hidden block">
+                    <Image alt="efficiency" src="/mobile-operation-efficiency.png" width={800} height={800} />
+                </div>
+                <div className="mt-20 md:mt-0">
                     {
                         EfficienceInfo2.map((item, index) => {
                             return (

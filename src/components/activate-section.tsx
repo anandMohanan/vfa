@@ -7,7 +7,7 @@ import { primary_font, secondary_jakarta } from "@/lib/font"
 export const ActivateSection = () => {
     return (
         <section className="flex  lg:flex-row flex-col  ">
-            <div className="flex flex-col gap-10  text-white md:w-[50%] md:p-32 p-10 ">
+            <div className="flex flex-col gap-10  text-white md:w-[50%] md:p-32 p-4 ">
                 <h3 className={cn("lg:text-4xl md:text-4xl text-2xl font-semibold", primary_font.className)}>
                     Ready To have Your Automation <br /> Assistant That Help You ?
                 </h3>

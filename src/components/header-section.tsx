@@ -49,7 +49,7 @@ export const HeaderSection = () => {
                     />
                 </div>
                 {/* CTA */}
-                <Button className={cn("rounded-full m-auto px-16 py-8 text-2xl",
+                <Button className={cn("rounded-full m-auto md:px-16 md:py-8 px-12 py-8 text-lg md:text-2xl",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",

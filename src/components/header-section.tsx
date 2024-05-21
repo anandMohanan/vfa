@@ -42,14 +42,15 @@ export const HeaderSection = () => {
                 </div>
 
                 {/* SVG */}
-                <div className="m-auto relative md:h-72 h-40 overflow-hidden w-full">
+                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72 h-40 overflow-hidden w-full">
                     <LottieAnimation
                         ani={ani}
                         className="md:w-[500px] w-[250px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        data-scroll data-scroll-speed="0.3"
                     />
                 </div>
                 {/* CTA */}
-                <Button className={cn("rounded-full m-auto md:px-16 md:py-8 px-8 py-4 text-lg md:text-2xl",
+                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full m-auto md:px-16 md:py-8 px-8 py-4 text-lg md:text-2xl",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",

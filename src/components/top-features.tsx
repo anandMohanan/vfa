@@ -1,4 +1,4 @@
-
+"use client"
 import { LineSvg } from "@/lib/icons"
 import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
@@ -8,11 +8,14 @@ import { cn } from "@/lib/utils"
 import CustomerCallFlow from '../../public/customer-call-flow.json'
 import CustomerChatFlow from '../../public/customer-chat-flow.json'
 import { LottieAnimation } from "./animation"
+import { Cursor } from "./ui/cursor"
+import { useState } from "react"
 
 export const TopFeaturesSection = () => {
+    const [isActive, setIsActive] = useState(false)
     return (
 
-        <section className="top_section w-full p-10 ">
+        <section data-scroll-container className="top_section w-full p-10 ">
             <div className="relative hidden md:flex items-center justify-center m-auto p-8">
                 <Badge
                     variant={"outline"}
@@ -26,8 +29,8 @@ export const TopFeaturesSection = () => {
                     <LineSvg className=" " />
                 </div>
             </div>
-            <div className="flex lg:flex-row flex-col lg:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
-                <div className="flex flex-col items-center md:items-start gap-5 md:p-10 mb-10">
+            <div data-scroll-speed className="flex lg:flex-row flex-col lg:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
+                <div data-scroll data-scroll-speed="0.3" onMouseOver={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)} className="flex flex-col items-center z-50 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
                         className={cn("text-white w-fit text-sm text-center md:text-lg p-2 px-8",
                             "bg-black border-[0.3px]",
@@ -60,7 +63,7 @@ export const TopFeaturesSection = () => {
                 </div>
             </div>
             <div className="flex lg:flex-row-reverse flex-col md:gap-56 gap-14 justify-evenly mt-8 md:mt-0 md:p-10">
-                <div className="flex flex-col items-center md:items-start gap-5">
+                <div onMouseOver={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)} className="flex flex-col items-center md:items-start gap-5 z-50">
                     <Badge
                         className={cn("text-white w-fit text-sm md:text-lg p-2 px-8",
                             "bg-black border-[0.3px]",
@@ -69,7 +72,7 @@ export const TopFeaturesSection = () => {
                     >
                         Operation Automation
                     </Badge>
-                    <h3 className={cn("text-white font-light  text-xl  md:text-4xl lg:text-5xl text-center ", primary_font.className)}>
+                    <h3 className={cn("text-white font-light  text-xl md:text-left  md:text-4xl lg:text-5xl text-center ", primary_font.className)}>
                         Accelerate Sales With {" "}
                         <span className="
                         text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)]
@@ -95,6 +98,7 @@ export const TopFeaturesSection = () => {
                 <div>
                     <LottieAnimation ani={CustomerChatFlow} />
                 </div>
+                <Cursor isActive={isActive} />
             </div>
         </section>
     )

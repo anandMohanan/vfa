@@ -9,7 +9,7 @@ import { LottieAnimation } from "./animation"
 export const OperationAutomationSection = () => {
     return (
         <section className=" p-10 flex flex-col items-end justify-start max-w-full text-left  text-white">
-            <div className="m-auto">
+            <div className="m-auto z-20">
                 <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_106_1302)">
                         <rect x="17" y="19" width="62" height="62" rx="31" fill="black" />

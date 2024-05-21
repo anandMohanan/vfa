@@ -72,7 +72,7 @@ export const Cursor = ({ isActive }) => {
                                 filter: `blur(${isActive ? 20 : 2}px)`,
                                 transition: `transform ${(4 - i) * delay}s linear, height 0.3s ease-out, width 0.3s ease-out, filter 0.3s ease-out`
                             }}
-                            className='-z-10 top-0 left-0 fixed rounded-full mix-blend-difference'
+                            className='-z-10 hidden  md:top-0 md:left-0 md:fixed rounded-full mix-blend-difference'
                             key={i}
                             ref={ref => circles.current[i] = ref}
                         />)

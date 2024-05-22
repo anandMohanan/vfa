@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { LottieAnimation } from "./animation"
 
-export const OperationAutomationSection =  () => {
+export const OperationAutomationSection = () => {
     return (
-        <section className=" p-10 flex flex-col items-end justify-start max-w-full text-left  text-white">
+        <section className=" flex flex-col items-end justify-start max-w-full text-left  text-white">
             <div className="m-auto z-20">
                 <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_106_1302)">
@@ -37,9 +37,9 @@ export const OperationAutomationSection =  () => {
                 </svg>
 
             </div>
-            <div className="relative max-w-full mt-10 ">
+            <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
-                    {cn("  bg-[transparent] absolute top-[-20px] left-[60px] md:top-[-20px] md:left-[544px]",
+                    {cn("  bg-[transparent] m-auto",
                         "shadow - [0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded - 3xl",
                         "     [background:linear-gradient(97.31deg,_#b68bfc,_#7354ef_47.79%,_#5e25ff)] overflow-hidden",
                         "whitespace-nowrap z-[1] border-[0.3px] border-solid border-black hover:bg-darkslategray-500",
@@ -53,7 +53,7 @@ export const OperationAutomationSection =  () => {
                mt-6
                md:mt-0
                 max-w-full md:border-[0.5px]  border-gray-100 border:none ">
-                    <div className="md:w-[575px] flex flex-col items-start justify-start md:pt-[134px] 
+                    <div className="md:w-[575px] flex flex-col  items-start justify-start md:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl">
                         <div className="flex flex-col items-start justify-start gap-[43px] max-w-full">
                             <div className="flex flex-row items-start justify-start py-0 pr-0 pl-2 max-w-full">
@@ -72,7 +72,7 @@ export const OperationAutomationSection =  () => {
                                     </h3>
                                     <p className={cn("md:text-xl text-md md:text-left text-center",
                                         "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
-                                        Enhance team communication and process flow,  as our agents  smoothly integrates with and automates 
+                                        Enhance team communication and process flow,  as our agents  smoothly integrates with and automates
                                         your operational communications.
                                     </p>
                                 </div>
@@ -94,7 +94,7 @@ export const OperationAutomationSection =  () => {
                         </div>
                     </div>
                     <div className="flex-1 flex flex-col items-start justify-start relative gap-[20px] md:min-w-[408px] min-w-[200px] max-w-full
-                   mt-8 md:mt-0">
+                   mt-8 md:mt-8 lg:mt-0">
                         <LottieAnimation ani={ani} />
                     </div>
                 </div>

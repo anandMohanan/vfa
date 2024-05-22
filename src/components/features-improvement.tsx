@@ -41,7 +41,7 @@ export const FeaturesImprovementSection = () => {
     ]
     return (
         <section className="relative min-h-screen  md:p-10 flex flex-col items-center">
-            <div className="relative md:block  feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
+            <div className="relative md:block  feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[700px] w-screen ">
                 <div className="md:absolute  flex  flex-col p-10 gap-5  justify-center ">
 
                     <Button className={cn(" md:text-[20px] text-sm md:text-left text-center text-white bg-black w-fit",
@@ -76,13 +76,13 @@ export const FeaturesImprovementSection = () => {
                 </ div>
             </div>
 
-            <div className="relative md:absolute top-[28%]  grid grid-cols-1 md:grid-cols-3 gap-4 md:p-8 mb-10 ">
+            <div className="relative md:absolute top-[28%]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  lg:p-8 mb-10 ">
                 {
                     FeaturesInfo.map((item, id) => {
                         return (
-                            <div key={id} className="card_border mx-2 p-[2px] rounded-2xl
+                            <div key={id} className="card_border  mx-2 p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)]">
-                                <Card key={id} className="md:h-[225px] md:w-[400px] w-[300px] h-[200px] p-0 bg-black border-none  rounded-2xl ">
+                                <Card key={id} className="md:h-[225px] bg-black lg:w-[400px] w-[300px] h-[200px] p-0  border-none  rounded-2xl ">
                                     <CardHeader className=" m-auto h-full flex flex-col justify-evenly p-4" >
                                         {item.icon}
                                         <CardTitle className={cn("text-white md:text-[20px] font-[600px] text-md", primary_font.className)}>{item.header}</CardTitle>

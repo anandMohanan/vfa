@@ -6,7 +6,7 @@ import { primary_font, secondary_jakarta } from "@/lib/font"
 export const ActivateSection = () => {
     return (
         <section className="flex z-50  lg:flex-row flex-col  ">
-            <div className="flex flex-col gap-10  text-white md:w-[50%] md:p-32 p-4 z-50">
+            <div className="flex flex-col gap-10  text-white lg:w-[50%] lg:p-32 md:w-[100%] md:p-10 p-4 z-50">
                 <h3 className={cn("lg:text-4xl md:text-[36px] text-[24px] md:text-left text-center  font-semibold", primary_font.className)}>
                     Ready To have Your VoiceFirst <br /> agents That Help You ?
                 </h3>
@@ -25,7 +25,7 @@ text-transparent !bg-clip-text text-[20px] md:text-[24px] font-extrabold
                 ">Enable VoiceFirstAI</span>
                 </Button>
             </div>
-            <div className="md:w-[50%]">
+            <div className="lg:w-[50%] md:w-[100%]">
                 <Image src="/activate.png" alt="activate" width={1000} height={800} />
             </div>
         </section>

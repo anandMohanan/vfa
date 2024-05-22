@@ -6,7 +6,7 @@ import { primary_font, secondary_jakarta } from "@/lib/font";
 export const FooterSection = () => {
     return (
         <footer id="footer text-white">
-            <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6  gap-y-8">
+            <section className="container py-20 grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6  gap-y-8">
                 <div className="flex text-xl text-white ">
                     <svg width="27.8" height="24.8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.06667 3.40003C5.06667 4.79915 3.93245 5.93337 2.53333 5.93337C1.13421 5.93337 0 4.79915 0 3.40003C0 2.00091 1.13421 0.866699 2.53333 0.866699C3.93245 0.866699 5.06667 2.00091 5.06667 3.40003Z" fill="white" />
@@ -45,7 +45,7 @@ export const FooterSection = () => {
                 </div>
 
 
-                <div className="flex flex-col gap-2 md:col-start-5 md:col-span-3 col-span-4">
+                <div className="flex flex-col gap-2 lg:col-start-5 lg:col-span-3 col-span-4">
                     <h3 className={cn("text-3xl text-white mb-8 font-extrabold", primary_font.className)}>Get started with personal AI Manager now </h3>
                     <div className={cn("flex flex-row ", secondary_jakarta.className)}>
                         <Button variant="default" className="rounded-3xl " size={"lg"}>Try Voicefirst</Button>

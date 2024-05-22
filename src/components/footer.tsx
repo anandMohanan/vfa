@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import { primary_font, secondary_jakarta } from "@/lib/font";
 
-export const FooterSection = () => {
+export const FooterSection = async () => {
     return (
         <footer id="footer text-white">
 

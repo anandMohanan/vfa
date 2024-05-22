@@ -1,16 +1,12 @@
-"use client"
 import Image from "next/image"
 import { Button } from "./ui/button"
 import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
-import { useState } from "react"
-import { Cursor } from "./ui/cursor"
 
-export const ActivateSection = () => {
-    const [isActive, setIsActive] = useState(false)
+export const ActivateSection = async () => {
     return (
-        <section  className="flex z-50  lg:flex-row flex-col  ">
-            <div onMouseOver={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)} className="flex flex-col gap-10  text-white md:w-[50%] md:p-32 p-4 z-50">
+        <section className="flex z-50  lg:flex-row flex-col  ">
+            <div className="flex flex-col gap-10  text-white md:w-[50%] md:p-32 p-4 z-50">
                 <h3 className={cn("lg:text-4xl md:text-4xl text-2xl font-semibold", primary_font.className)}>
                     Ready To have Your Automation <br /> Assistant That Help You ?
                 </h3>
@@ -30,7 +26,6 @@ text-transparent !bg-clip-text
                 ">Activate VoiceFirstAI</span>
                 </Button>
             </div>
-            <Cursor isActive={isActive} />
             <div className="md:w-[50%]">
                 <Image src="/activate.png" alt="activate" width={1000} height={800} />
             </div>

@@ -1,4 +1,3 @@
-"use client"
 import { LineSvg } from "@/lib/icons"
 import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
@@ -7,12 +6,10 @@ import { cn } from "@/lib/utils"
 
 import CustomerCallFlow from '../../public/customer-call-flow.json'
 import CustomerChatFlow from '../../public/customer-chat-flow.json'
-import { LottieAnimation } from "./animation"
-import { Cursor } from "./ui/cursor"
-import { useState } from "react"
 
-export const TopFeaturesSection = () => {
-    const [isActive, setIsActive] = useState(false)
+import { LottieAnimation } from "./animation"
+
+export const TopFeaturesSection = async () => {
     return (
 
         <section data-scroll-container className="top_section w-full p-10 ">
@@ -29,8 +26,8 @@ export const TopFeaturesSection = () => {
                     <LineSvg className=" " />
                 </div>
             </div>
-            <div data-scroll-speed className="flex lg:flex-row flex-col lg:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
-                <div data-scroll data-scroll-speed="0.3" onMouseOver={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)} className="flex flex-col items-center z-50 md:items-start gap-5 md:p-10 mb-10">
+            <div className="flex lg:flex-row flex-col lg:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
+                <div className="flex flex-col items-center z-50 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
                         className={cn("text-white w-fit text-sm text-center md:text-lg p-2 px-8",
                             "bg-black border-[0.3px]",
@@ -63,7 +60,7 @@ export const TopFeaturesSection = () => {
                 </div>
             </div>
             <div className="flex lg:flex-row-reverse flex-col md:gap-56 gap-14 justify-evenly mt-8 md:mt-0 md:p-10">
-                <div onMouseOver={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)} className="flex flex-col items-center md:items-start gap-5 z-50">
+                <div className="flex flex-col items-center md:items-start gap-5 z-50">
                     <Badge
                         className={cn("text-white w-fit text-sm md:text-lg p-2 px-8",
                             "bg-black border-[0.3px]",
@@ -98,9 +95,9 @@ export const TopFeaturesSection = () => {
                 <div>
                     <LottieAnimation ani={CustomerChatFlow} />
                 </div>
-                <Cursor isActive={isActive} />
             </div>
         </section>
     )
 }
+
 

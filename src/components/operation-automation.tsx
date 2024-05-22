@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { LottieAnimation } from "./animation"
 
-export const OperationAutomationSection = () => {
+export const OperationAutomationSection = async () => {
     return (
         <section className=" p-10 flex flex-col items-end justify-start max-w-full text-left  text-white">
             <div className="m-auto z-20">

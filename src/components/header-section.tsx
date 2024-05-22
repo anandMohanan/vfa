@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import { primary_font } from "@/lib/font"
 import { LottieAnimation } from "./animation"
 
-export const HeaderSection = () => {
+export const HeaderSection = async () => {
     return (
         <header className=" header_section w-full min-h-screen mt-5 md:mt-0 ">
             <div className=" bg_grid flex flex-col  items-start justify-start gap-6">

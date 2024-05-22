@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { FingerprintIcon, PiechartIcon, PopoutIcon, RefreshIcon, RocketIcon, TranslateIcon } from "@/lib/icons"
 
-export const FeaturesImprovementSection = () => {
+export const FeaturesImprovementSection = async () => {
     const FeaturesInfo = [
         {
             icon: <RocketIcon />,

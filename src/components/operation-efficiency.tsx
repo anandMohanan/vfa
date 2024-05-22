@@ -12,7 +12,7 @@ import Image from "next/image"
 
 
 
-export const OperationEfficiencySection = () => {
+export const OperationEfficiencySection = async () => {
     const EfficienceInfo1 = [
         {
             icon: <BulbIcon />,

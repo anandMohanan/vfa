@@ -1,12 +1,7 @@
 
 
 import Link from "next/link";
-import {
-    Menu,
-} from "lucide-react";
-
 import { Button, buttonVariants } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { primary_font } from "@/lib/font";
 
@@ -23,7 +18,7 @@ export const Navbar = async () => {
                             <circle cx="20.2667" cy="3.40003" r="2.53333" fill="white" />
                             <circle cx="17.7333" cy="12.2667" r="2.53333" fill="white" />
                         </svg>
-                        oicefirst ai
+                        oiceFirst Ai
                     </Link>
                     <div className="w-10 opacity-0 "></div>
                 </div>

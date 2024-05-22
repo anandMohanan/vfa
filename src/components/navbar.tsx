@@ -34,7 +34,7 @@ export const Navbar =  () => {
                         <circle cx="20.2667" cy="3.40003" r="2.53333" fill="white" />
                         <circle cx="17.7333" cy="12.2667" r="2.53333" fill="white" />
                     </svg>
-                    oicefirst ai
+                    oiceFirst Ai
                 </Link>
             </div>
             <div className="flex w-full md:w-auto justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4">

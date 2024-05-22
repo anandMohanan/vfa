@@ -27,7 +27,7 @@ export const HeaderSection = () => {
                 {/* Hero */}
                 <div className="md:max-w-[50%]  max-w-[80%] my-4 m-auto">
                     <div className="mb-4">
-                        <h1 className={cn("text-white mb-4 font-light  text-xl  md:text-[48px] 3xl:text-[60px]  text-center", secondary_jakarta.className)}>
+                        <h1 className={cn("text-white md:mb-4 font-light  text-[28px] leading-[35.28px]  md:text-[48px] 3xl:text-[60px]  text-center", secondary_jakarta.className)}>
                             Meet Your{" "}
                             <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                                 AI Agents
@@ -35,11 +35,11 @@ export const HeaderSection = () => {
                             {` That Listen `}
 
                         </h1>
-                        <h1 className={cn("text-white font-light  text-xl  md:text-4xl lg:text-[48px] text-center", secondary_jakarta.className)}>
+                        <h1 className={cn("text-white font-light  text-[28px] leading-[35.28px]  md:text-[48px] 3xl:text-[60px]  text-center", secondary_jakarta.className)}>
                             {`And Speak Anytime & Anywhere`}
                         </h1>
                     </div>
-                    <p className={cn("text-white leading-10 w-[80%] m-auto text-center md:text-[20px] text-sm ", secondary_jakarta.className)}>
+                    <p className={cn("text-white leading-10 md:w-[80%] w-[100%] m-auto text-center md:text-[20px] text-[16px] ", secondary_jakarta.className)}>
                         Imagine a team that never clocks out. A customer service agent
                         that’s all ears, 24/7. A sales assistant that’s always fine-tuning
                         its pitch. That’s VoiceFirst AI—your always-available, voice-driven
@@ -48,7 +48,7 @@ export const HeaderSection = () => {
                 </div>
 
                 {/* SVG */}
-                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72 h-40 overflow-hidden w-full">
+                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72 h-60 overflow-hidden w-full">
                     <LottieAnimation
                         ani={ani}
                         className="md:w-[500px] w-[250px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
@@ -56,7 +56,7 @@ export const HeaderSection = () => {
                     />
                 </div>
                 {/* CTA */}
-                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full m-auto md:px-16 md:py-8 px-8 py-4 text-lg md:text-2xl",
+                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full m-auto md:px-16 md:py-8 px-8 py-4 text-[18px] md:text-[24px]",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",

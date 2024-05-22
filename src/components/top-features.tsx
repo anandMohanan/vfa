@@ -26,7 +26,7 @@ export const TopFeaturesSection = () => {
                     <LineSvg className=" " />
                 </div>
             </div>
-            <div className="flex lg:flex-row flex-col lg:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
+            <div className="flex lg:flex-row flex-col md:gap-56 justify-evenly items-center lg:p-36 md:p-10 ">
                 <div className="flex flex-col items-center z-50 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
                         className={cn("text-white w-fit text-[16px] text-center md:text-[20px] p-2 px-8",
@@ -59,7 +59,7 @@ export const TopFeaturesSection = () => {
                     <LottieAnimation ani={CustomerCallFlow} />
                 </div>
             </div>
-            <div className="flex lg:flex-row-reverse flex-col md:gap-56 gap-14 justify-evenly mt-8 md:mt-0 md:p-10">
+            <div className="flex lg:flex-row-reverse  flex-col md:gap-56 gap-10 justify-evenly mt-28 md:mt-0 md:p-10">
                 <div className="flex flex-col items-center md:items-start gap-5 z-50 ">
 
 

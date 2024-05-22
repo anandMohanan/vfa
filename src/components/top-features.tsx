@@ -20,7 +20,7 @@ export const TopFeaturesSection = () => {
                         "bg-black border-[0.3px] font-[700px] ",
                         " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
                         "hover:border-cornflowerblue-600", secondary_jakarta.className)}>
-                    Out Top 3 Features
+                    Your 24/7  AI Agents
                 </Badge>
                 <div className="hidden lg:block lg:absolute top-0 z-10">
                     <LineSvg className=" " />
@@ -41,19 +41,24 @@ export const TopFeaturesSection = () => {
                         Times
                     </h3>
                     <p className={
-                        cn("text-white tracking-tight md:text-left text-center md:text-[20px] text-[16px] leading-[27px] ", secondary_jakarta.className)}>
-                        Long wait times? Missed calls? Not on our watch. VoiceFirst AI <br className="hidden lg:block" />  ensures every
-                        customer feels heard and helped,  right when <br className="hidden lg:block" />  they need it. </p>
-                    <Button className={cn("rounded-xl w-fit md:px-16 md:py-8 px-8 py-4 md:text-[24px] text-[20px]",
-                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
-                        " overflow-hidden whitespace-nowrap",
-                        "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
-                        " hover:border-[1.5px]  hover:border-cornflowerblue-600",
-                        "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
-                        "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                        primary_font.className
-                    )}>
-                        Customer First</Button>
+                        cn("text-white tracking-tight  md:text-left text-center md:text-[20px] text-[16px] leading-[27px] ", secondary_jakarta.className)}>
+                        Long wait times? Missed calls? Not on our watch.<br className="hidden md:block" />VoiceFirst Agents ensures every customer
+                        feels heard and <br className="hidden md:block" /> helped,
+                        right when they need it.
+                        </p>
+                        {                    
+                        // <Button className={cn("rounded-xl w-fit md:px-16 md:py-8 px-8 py-4 md:text-[24px] text-[20px]",
+                        //     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
+                        //     " overflow-hidden whitespace-nowrap",
+                        //     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
+                        //     " hover:border-[1.5px]  hover:border-cornflowerblue-600",
+                        //     "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                        //     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
+                        //     primary_font.className
+                        // )}>
+                        // Customer First</Button>
+                    }
+                    <Button variant="default" className={cn(" font-bold md:p-6 md:text-[24px] text-[16px]", primary_font.className)}>Customer First</Button>
                 </div>
                 <div>
                     <LottieAnimation ani={CustomerCallFlow} />
@@ -61,16 +66,13 @@ export const TopFeaturesSection = () => {
             </div>
             <div className="flex lg:flex-row-reverse  flex-col md:gap-56 gap-10 justify-evenly mt-28 md:mt-0 md:p-10">
                 <div className="flex flex-col items-center md:items-start gap-5 z-50 ">
-
-
-
                     <Badge
                         className={cn("text-white w-fit text-[16px] text-center md:text-[20px] p-2 px-8",
                             "bg-black border-[0.3px]",
                             " shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}
                     >
-                        Operation Automation
+                        Agent-driven Outreach
                     </Badge>
                     <h3 className={cn("text-white text-[24px] text-center md:text-left  md:text-[35.94px] font-[500px] ", secondary_jakarta.className)}>
                         Accelerate Sales With {" "}
@@ -84,23 +86,26 @@ export const TopFeaturesSection = () => {
                         cn("text-white tracking-tight md:text-left text-center md:text-[20px] text-[16px] leading-[27px] ", secondary_jakarta.className)}>
                         Proactively engage and follow up on leads, driving sales with <br className="hidden lg:block" /> timely  and relevant conversations initiated by our AI.
                     </p>
-                    <Button className={cn("rounded-xl w-fit md:px-16 md:py-8 px-8 py-4 md:text-[24px] text-[20px]",
-                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
-                        " overflow-hidden whitespace-nowrap",
-                        "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
-                        " hover:border-[1.5px]  hover:border-cornflowerblue-600",
-                        "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
-                        "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                        primary_font.className
-                    )}>
-                        Increase your sales
-                    </Button>
+                    {
+                        // <Button className={cn("rounded-xl w-fit md:px-16 md:py-8 px-8 py-4 md:text-[24px] text-[20px]",
+                        //     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
+                        //     " overflow-hidden whitespace-nowrap",
+                        //     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
+                        //     " hover:border-[1.5px]  hover:border-cornflowerblue-600",
+                        //     "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                        //     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
+                        //     primary_font.className
+                        // )}>
+                        //     Increase your sales
+                        // </Button>
+                    }
+                    <Button variant="default" className={cn(" font-bold md:p-6 md:text-[24px] text-[16px]", primary_font.className)}>Increase your sales</Button>
                 </div>
                 <div>
                     <LottieAnimation ani={CustomerChatFlow} />
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

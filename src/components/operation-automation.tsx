@@ -72,9 +72,8 @@ export const OperationAutomationSection =  () => {
                                     </h3>
                                     <p className={cn("md:text-xl text-md md:text-left text-center",
                                         "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
-                                        Enhance team communication and process flow, as our AI
-                                        smoothly integrates with and automates your operational
-                                        communications.
+                                        Enhance team communication and process flow,  as our agents  smoothly integrates with and automates 
+                                        your operational communications.
                                     </p>
                                 </div>
                             </div>

@@ -20,7 +20,7 @@ export const HeaderSection = () => {
                             "bg-black border-[0.3px]",
                             " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}>
-                        Meet Automated Voice AI
+                        Discover Voice-First Agents
                     </Badge>
                 </div>
 
@@ -32,18 +32,17 @@ export const HeaderSection = () => {
                             <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                                 AI Agents
                             </span>
-                            {` That Listen `}
 
                         </h1>
                         <h1 className={cn("text-white font-light  text-[28px] leading-[35.28px]  md:text-[48px] 3xl:text-[60px]  text-center", secondary_jakarta.className)}>
-                            {`And Speak Anytime & Anywhere`}
+                            {` That Listen And Speak`}
                         </h1>
                     </div>
                     <p className={cn("text-white leading-10 md:w-[80%] w-[100%] m-auto text-center md:text-[20px] text-[16px] ", secondary_jakarta.className)}>
-                        Imagine a team that never clocks out. A customer service agent
-                        that’s all ears, 24/7. A sales assistant that’s always fine-tuning
-                        its pitch. That’s VoiceFirst AI—your always-available, voice-driven
-                        team multiplier.
+                        Imagine a team that never clocks out.
+                        A customer service agent that’s all ears, 24/7.
+                        A sales assistant that’s always fine-tuning its pitch.
+                        That’s VoiceFirst AI—your always-available, voice-driven team multiplier.
                     </p>
                 </div>
 
@@ -65,7 +64,7 @@ export const HeaderSection = () => {
                     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
                     primary_font.className
                 )}>
-                    Activate your AI
+                    Activate your Agents
                 </Button>
             </div>
         </header >

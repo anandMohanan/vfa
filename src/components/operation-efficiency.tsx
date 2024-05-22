@@ -13,24 +13,24 @@ export const OperationEfficiencySection = () => {
         {
             icon: <BulbIcon />,
             header: "Automatic Learning",
-            description: "Supaglue is SOC 2 Type I certified. Report is available upon request."
+            description: "AI that gets smarter over time for better outcomes."
         },
         {
             icon: <AudioIcon />,
             header: "Voice Profile",
-            description: "No wait times for customer queries, Engage leads with zero delay"
+            description: "Builds and updates voice profiles for precise communication."
         },
     ]
     const EfficienceInfo2 = [
         {
             icon: <UparrowIcon />,
             header: "Continuous Development",
-            description: "Deploy our platform in your cloud to satisfy security and compliance requirements."
+            description: "Adapts and grows with your organization."
         },
         {
             icon: <BrainIcon />,
             header: "Re-Test Function",
-            description: "Open source connectors you can contribute to and customize for your use case."
+            description: "Customizable to fit unique business requirements."
         },
     ]
     return (
@@ -85,15 +85,16 @@ export const OperationEfficiencySection = () => {
                             return (
                                 <div key={index} className="card_border p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] mb-20">
-                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none p-0  rounded-2xl ">
-                                        <CardHeader>
+                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none  rounded-2xl ">
+                                        <CardHeader className={cn(
+                                        )}>
                                             {item.icon}
                                             <CardTitle className={cn("text-white text-[20px] ",
                                                 "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#6977F0,_#4255FC)]",
                                                 "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]",
                                                 primary_font.className
                                             )}><span className="font-extrabold">{item.header}</span></CardTitle>
-                                            <CardDescription className={cn("text-[16px] text-left text-whitesmoke font-semibold ", secondary_jakarta.className)}>
+                                            <CardDescription className={cn("text-[18px] text-whitesmoke font-extralight ", secondary_jakarta.className)}>
                                                 {item.description}
                                             </CardDescription>
                                         </CardHeader>

@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { FingerprintIcon, PiechartIcon, PopoutIcon, RefreshIcon, RocketIcon, TranslateIcon } from "@/lib/icons"
 
-export const FeaturesImprovementSection =  () => {
+export const FeaturesImprovementSection = () => {
     const FeaturesInfo = [
         {
             icon: <RocketIcon />,
@@ -51,7 +51,7 @@ export const FeaturesImprovementSection =  () => {
                         "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
                         "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
                         "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", primary_font.className)}>
-                        Features Improvement
+                        Agent&apos;s Capability
                     </Button>
                     <h3 className={cn("md:text-[36px] text-center md:text-left  text-md font-semibold text-white", primary_font.className)}>
                         Talk to Your Customers Right Away

@@ -2,15 +2,15 @@ import { Badge } from "./ui/badge"
 import ani from "../../public/flow-4.json"
 import { Button } from "./ui/button"
 import { cn } from "@/lib/utils"
-import { primary_font } from "@/lib/font"
+import { primary_font, secondary_jakarta } from "@/lib/font"
 import { LottieAnimation } from "./animation"
 
-export const HeaderSection = async () => {
+export const HeaderSection = () => {
     return (
         <header className=" header_section w-full min-h-screen mt-5 md:mt-0 ">
             <div className=" bg_grid flex flex-col  items-start justify-start gap-6">
                 {/* Top Button */}
-                <div className=" lg:w-[50rem] h-12 relative m-auto flex flex-col justify-center items-center  ">
+                <div className=" lg:w-[50rem] xl:w-[60rem]  h-12 relative m-auto flex flex-col justify-center items-center  ">
                     <div className="line hidden  md:block absolute md:w-[50rem] md:h-[0.6px] 
                     bg-gradient-to-r from-[#000] via-[#3f5399] to-[#000]
                     "/>
@@ -19,21 +19,27 @@ export const HeaderSection = async () => {
                         className={cn("text-white lg:absolute text-sm md:text-lg p-2 px-8",
                             "bg-black border-[0.3px]",
                             " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
-                            "hover:border-cornflowerblue-600", primary_font.className)}>
+                            "hover:border-cornflowerblue-600", secondary_jakarta.className)}>
                         Meet Automated Voice AI
                     </Badge>
                 </div>
 
                 {/* Hero */}
-                <div className="md:max-w-[50%] max-w-[80%] my-4 m-auto">
-                    <h1 className={cn("text-white font-light  text-xl  md:text-4xl lg:text-5xl text-center", primary_font.className)}>
-                        Meet Your{" "}
-                        <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                            AI Agents
-                        </span>
-                        <span>{` That Listen And Speak Anytime & Anywhere`}</span>
-                    </h1>
-                    <p className={cn("text-white tracking-tight text-center md:text-xl text-sm leading-7 [&:not(:first-child)]:mt-6", primary_font.className)}>
+                <div className="md:max-w-[50%]  max-w-[80%] my-4 m-auto">
+                    <div className="mb-4">
+                        <h1 className={cn("text-white mb-4 font-light  text-xl  md:text-[48px] 3xl:text-[60px]  text-center", secondary_jakarta.className)}>
+                            Meet Your{" "}
+                            <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+                                AI Agents
+                            </span>
+                            {` That Listen `}
+
+                        </h1>
+                        <h1 className={cn("text-white font-light  text-xl  md:text-4xl lg:text-[48px] text-center", secondary_jakarta.className)}>
+                            {`And Speak Anytime & Anywhere`}
+                        </h1>
+                    </div>
+                    <p className={cn("text-white leading-10 w-[80%] m-auto text-center md:text-[20px] text-sm ", secondary_jakarta.className)}>
                         Imagine a team that never clocks out. A customer service agent
                         that’s all ears, 24/7. A sales assistant that’s always fine-tuning
                         its pitch. That’s VoiceFirst AI—your always-available, voice-driven

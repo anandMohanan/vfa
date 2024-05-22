@@ -8,11 +8,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import Image from "next/image"
 
 
-
-
-
-
-export const OperationEfficiencySection = async () => {
+export const OperationEfficiencySection = () => {
     const EfficienceInfo1 = [
         {
             icon: <BulbIcon />,
@@ -40,18 +36,15 @@ export const OperationEfficiencySection = async () => {
     return (
         <section className="md:p-10 relative">
             <div className="flex flex-col gap-5 items-center justify-center">
-                <Button className={cn(" md:text-xl text-sm rounded-full  text-white bg-black w-fit",
-                    "border border-cornflowerblue-300",
+                <Button className={cn(" md:text-[20px] font-[500px] text-sm rounded-full  text-white bg-black w-fit",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
-                    "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
-                    " hover:border-[1.5px]  hover:border-cornflowerblue-600",
                     "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
                     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                    "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", primary_font.className)}>
+                    "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
-                <h3 className={cn("text-white lg:text-3xl text-lg", primary_font.className)}>Operation Efficieny Reimagined </h3>
+                <h3 className={cn("text-white lg:text-[36px] text-lg", secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
             </div>
             <div className="p-10 flex md:flex-row flex-col">
 
@@ -61,16 +54,16 @@ export const OperationEfficiencySection = async () => {
                             return (
                                 <div key={index} className="card_border p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] mb-20">
-                                    <Card className="bg-black lg:h-[200px] lg:w-[320px]  border-none  rounded-2xl ">
+                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none  rounded-2xl ">
                                         <CardHeader className={cn(
                                         )}>
                                             {item.icon}
-                                            <CardTitle className={cn("text-white text-md",
+                                            <CardTitle className={cn("text-white text-[20px] ",
                                                 "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#6977F0,_#4255FC)]",
                                                 "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]",
                                                 primary_font.className
-                                            )}>{item.header}</CardTitle>
-                                            <CardDescription className={cn("text-sm text-whitesmoke ", secondary_jakarta.className)}>
+                                            )}><span className="font-extrabold">{item.header}</span></CardTitle>
+                                            <CardDescription className={cn("text-[18px] text-whitesmoke font-extralight ", secondary_jakarta.className)}>
                                                 {item.description}
                                             </CardDescription>
                                         </CardHeader>
@@ -92,15 +85,15 @@ export const OperationEfficiencySection = async () => {
                             return (
                                 <div key={index} className="card_border p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] mb-20">
-                                    <Card className="bg-black lg:h-[200px] lg:w-[320px]  border-none  rounded-2xl ">
+                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none p-0  rounded-2xl ">
                                         <CardHeader>
                                             {item.icon}
-                                            <CardTitle className={cn("text-white text-md",
+                                            <CardTitle className={cn("text-white text-[20px] ",
                                                 "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#6977F0,_#4255FC)]",
                                                 "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]",
                                                 primary_font.className
-                                            )}>{item.header}</CardTitle>
-                                            <CardDescription className={cn("text-sm text-whitesmoke ", secondary_jakarta.className)}>
+                                            )}><span className="font-extrabold">{item.header}</span></CardTitle>
+                                            <CardDescription className={cn("text-[16px] text-left text-whitesmoke font-semibold ", secondary_jakarta.className)}>
                                                 {item.description}
                                             </CardDescription>
                                         </CardHeader>

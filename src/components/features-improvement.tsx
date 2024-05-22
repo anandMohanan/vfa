@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { FingerprintIcon, PiechartIcon, PopoutIcon, RefreshIcon, RocketIcon, TranslateIcon } from "@/lib/icons"
 
-export const FeaturesImprovementSection = async () => {
+export const FeaturesImprovementSection =  () => {
     const FeaturesInfo = [
         {
             icon: <RocketIcon />,
@@ -43,18 +43,17 @@ export const FeaturesImprovementSection = async () => {
         <section className="relative min-h-screen  md:p-10 flex flex-col items-center">
             <div className="relative md:block  feature_box rounded-xl   lg:w-[1343px] lg:h-[338px] md:w-[1000px] w-screen ">
                 <div className="md:absolute  flex  flex-col p-10 gap-5  justify-center ">
-                    <Button className={cn(" md:text-xl text-sm md:text-left text-center text-white bg-black w-fit",
-                        "border border-cornflowerblue-300",
-                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
+
+                    <Button className={cn(" md:text-[20px] text-sm md:text-left text-center text-white bg-black w-fit",
+                        "",
+                        "shadow-[0px_0px_6.9px_rgba(82,79,_255,_0.15)] ",
                         " overflow-hidden whitespace-nowrap",
-                        "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
-                        " hover:border-[1.5px]  hover:border-cornflowerblue-600",
                         "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
                         "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
                         "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", primary_font.className)}>
                         Features Improvement
                     </Button>
-                    <h3 className={cn("md:text-4xl text-center md:text-left  text-md font-semibold text-white", primary_font.className)}>
+                    <h3 className={cn("md:text-[36px] text-center md:text-left  text-md font-semibold text-white", primary_font.className)}>
                         Talk to Your Customers Right Away
                     </h3>
                 </div>
@@ -83,11 +82,11 @@ export const FeaturesImprovementSection = async () => {
                         return (
                             <div key={id} className="card_border mx-2 p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)]">
-                                <Card key={id} className="bg-black md:h-[225px] md:w-[400px] w-[300px] h-[200px] border-none  rounded-2xl ">
-                                    <CardHeader>
+                                <Card key={id} className="md:h-[225px] md:w-[400px] w-[300px] h-[200px] p-0 bg-black border-none  rounded-2xl ">
+                                    <CardHeader className=" m-auto h-full flex flex-col justify-evenly p-4" >
                                         {item.icon}
-                                        <CardTitle className={cn("text-white md:text-xl text-md", primary_font.className)}>{item.header}</CardTitle>
-                                        <CardDescription className={cn("md:text-lg text-sm py-2 text-whitesmoke", secondary_jakarta.className)}>
+                                        <CardTitle className={cn("text-white md:text-[20px] font-[600px] text-md", primary_font.className)}>{item.header}</CardTitle>
+                                        <CardDescription className={cn("md:text-[16px] text-sm py-2 text-whitesmoke", secondary_jakarta.className)}>
                                             {item.description}
                                         </CardDescription>
                                     </CardHeader>

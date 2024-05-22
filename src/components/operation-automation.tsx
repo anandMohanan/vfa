@@ -8,7 +8,7 @@ import { LottieAnimation } from "./animation"
 
 export const OperationAutomationSection = () => {
     return (
-        <section className=" flex flex-col items-end justify-start max-w-full text-left  text-white">
+        <section className="relative flex flex-col items-end justify-start max-w-full text-left  text-white">
             <div className="m-auto z-20">
                 <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_106_1302)">
@@ -40,7 +40,9 @@ export const OperationAutomationSection = () => {
             <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
                     {cn("  bg-[transparent] m-auto",
-                        "shadow - [0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded - 3xl",
+                        "lg2xl:p-4 lg3xl:p-6 lgxl:p-8 lg2xl:px-16 lg3xl:px-20 lgxl:px-24",
+                        "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
+                        "shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded-3xl",
                         "     [background:linear-gradient(97.31deg,_#b68bfc,_#7354ef_47.79%,_#5e25ff)] overflow-hidden",
                         "whitespace-nowrap z-[1] border-[0.3px] border-solid border-black hover:bg-darkslategray-500",
                         "hover:box-border hover:border-[0.3px] hover:border-solid hover:border-darkslategray-300", primary_font.className)}>
@@ -54,7 +56,7 @@ export const OperationAutomationSection = () => {
                md:mt-0
                 max-w-full md:border-[0.5px]  border-gray-100 border:none ">
                     <div className="md:w-[575px] flex flex-col  items-start justify-start md:pt-[134px] 
-                    px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl">
+                    px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl ">
                         <div className="flex flex-col items-start justify-start gap-[43px] max-w-full">
                             <div className="flex flex-row items-start justify-start py-0 pr-0 pl-2 max-w-full">
                                 <div className="flex-1 flex flex-col items-start justify-start gap-[8px] max-w-full">

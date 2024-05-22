@@ -13,35 +13,43 @@ export const TopFeaturesSection = () => {
     return (
 
         <section className="top_section w-full ">
-            <div className="relative hidden md:flex items-center justify-center  m-auto p-8">
+            <div className="relative hidden md:flex items-center justify-center  m-auto p-2">
+                {
+                    // <div className="hidden lg:block lg:absolute -top-20 z-10">
+                    //     <LineSvg className="" />
+                    // </div>
+                }
                 <Badge
                     variant={"outline"}
-                    className={cn("text-white hidden md:block absolute z-20 text-sm md:text-[20px] p-2 px-8",
+                    className={cn("text-white hidden md:block z-20 text-sm md:text-[20px] p-2 px-8",
                         "bg-black border-[0.3px] font-[700px] ",
+                        "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
+                        "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                         " border-cornflowerblue-300 shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] hover:bg-darkslategray-300 ",
                         "hover:border-cornflowerblue-600", secondary_jakarta.className)}>
                     Your 24/7  AI Agents
                 </Badge>
-                <div className="hidden lg:block lg:absolute top-0 z-10">
-                    <LineSvg className=" " />
-                </div>
             </div>
             <div className="flex lg:flex-row flex-col md:gap-34 lg:gap-56 justify-evenly items-center  lg:p-36 md:p-10 ">
-                <div className="flex flex-col p-5 items-center z-50 md:items-start gap-5 md:p-10 mb-10">
+                <div className="flex flex-col p-5 items-center z-50 lgxl:p-0 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
                         className={cn("text-white w-fit text-[16px] text-center lg:text-center md:text-[20px] p-2 px-8",
                             "bg-black border-[0.3px]",
+                            "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
+                            "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                             " shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}
                     > Customer Support</Badge>
-                    <h3 className={cn("text-white text-[24px]  md:text-[35.94px] font-[500px] text-center md:text-left ", secondary_jakarta.className)}>
+                    <h3 className={cn("text-white text-[24px]  md:text-[35.94px] font-[500px]",
+                        "text-center md:text-left  lgxl:text-[50px] lg2xl:text-[80px] lg3xl:text-[120px]", secondary_jakarta.className)}>
                         Instant Support, No {" "}
                         <span className="text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                             Wait {" "}</span>
                         Times
                     </h3>
                     <p className={
-                        cn("text-white tracking-tight  lg:text-left text-center md:text-[20px] text-[16px] leading-[27px] ", secondary_jakarta.className)}>
+                        cn("text-white tracking-tight  lg:text-left text-center md:text-[20px]",
+                            "text-[16px] leading-[27px] lgxl:leading-[32px] lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ", secondary_jakarta.className)}>
                         Long wait times? Missed calls? Not on our watch.<br className="hidden md:block" />VoiceFirst Agents ensures every customer
                         feels heard and <br className="hidden md:block" /> helped,
                         right when they need it.
@@ -58,23 +66,29 @@ export const TopFeaturesSection = () => {
                         // )}>
                         // Customer First</Button>
                     }
-                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0  md:p-6 md:text-[24px] text-[16px]", primary_font.className)}>Customer First</Button>
+                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0",
+                        "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
+                        "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
+                        Customer First</Button>
                 </div>
-                <div>
+                <div className="min-w-[30%]">
                     <LottieAnimation ani={CustomerCallFlow} />
                 </div>
             </div>
-            <div className="flex lg:flex-row-reverse flex-col md:gap-34 lg:gap-56 justify-evenly items-center  md:p-36 ">
-                <div className="flex flex-col items-center p-5 z-50 md:items-start gap-5 md:p-10 ">
+            <div className="flex lg:flex-row-reverse flex-col md:gap-34 lg:gap-56 justify-evenly items-center  md:p-36 mt-5 lg:mt-0 ">
+                <div className="flex flex-col p-5 items-center z-50 lgxl:p-0 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
-                        className={cn("text-white w-fit text-[16px] text-center md:text-[20px] p-2 px-8",
+                        className={cn("text-white w-fit text-[16px] text-center lg:text-center md:text-[20px] p-2 px-8",
                             "bg-black border-[0.3px]",
+                            "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
+                            "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                             " shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}
                     >
                         Agent-driven Outreach
                     </Badge>
-                    <h3 className={cn("text-white text-[24px] text-center lg:text-left  md:text-[35.94px] font-[500px] ", secondary_jakarta.className)}>
+                    <h3 className={cn("text-white text-[24px]  md:text-[35.94px] font-[500px]",
+                        "text-center md:text-left  lgxl:text-[50px] lg2xl:text-[80px] lg3xl:text-[120px]", secondary_jakarta.className)}>
                         Accelerate Sales With {" "}
                         <span className="
                         text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)]
@@ -83,8 +97,9 @@ export const TopFeaturesSection = () => {
                         Outreach
                     </h3>
                     <p className={
-                        cn("text-white tracking-tight lg:text-left text-center md:text-[20px] text-[16px] leading-[27px] ", secondary_jakarta.className)}>
-                        Proactively engage and follow up on leads, driving sales with <br className="hidden lg:block" /> timely  and relevant conversations initiated by our AI.
+                        cn("text-white tracking-tight  lg:text-left text-center md:text-[20px]",
+                            "text-[16px] leading-[27px] lgxl:leading-[32px] lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ", secondary_jakarta.className)}>
+                        Proactively engage and follow up on leads, driving sales with  timely  and relevant conversations initiated by our AI.
                     </p>
                     {
                         // <Button className={cn("rounded-xl w-fit md:px-16 md:py-8 px-8 py-4 md:text-[24px] text-[20px]",
@@ -99,9 +114,12 @@ export const TopFeaturesSection = () => {
                         //     Increase your sales
                         // </Button>
                     }
-                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0 md:p-6 md:text-[24px] text-[16px]", primary_font.className)}>Increase your sales</Button>
+                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0",
+                        "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
+                        "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
+                    Increase your sales</Button>
                 </div>
-                <div>
+                <div className="min-w-[50%]">
                     <LottieAnimation ani={CustomerChatFlow} />
                 </div>
             </div>

@@ -34,7 +34,7 @@ export const OperationEfficiencySection = () => {
         },
     ]
     return (
-        <section className="lg:p-10 md:p-20 relative">
+        <section className="lg:p-10 md:p-15 md:mt-16 ">
             <div className="flex flex-col gap-5 items-center justify-center">
                 <Button className={cn(" md:text-[20px] font-[500px] text-sm rounded-full  text-white bg-black w-fit",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
@@ -54,7 +54,7 @@ export const OperationEfficiencySection = () => {
                             return (
                                 <div key={index} className="card_border p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] mb-20">
-                                    <Card className="bg-black lg:h-[200px] lg:w-[400px] md:w-[300px]  border-none  rounded-2xl ">
+                                    <Card className="bg-black lg:h-[200px] lg:w-[400px] md:w-[300px] md:h-[250px]  border-none  rounded-2xl ">
                                         <CardHeader className={cn(
                                         )}>
                                             {item.icon}
@@ -85,7 +85,7 @@ export const OperationEfficiencySection = () => {
                             return (
                                 <div key={index} className="card_border p-[2px] rounded-2xl
             shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] mb-20">
-                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none md:w-[300px]  rounded-2xl ">
+                                    <Card className="bg-black lg:h-[200px] lg:w-[400px]  border-none md:w-[300px]  md:h-[250px] rounded-2xl ">
                                         <CardHeader className={cn(
                                         )}>
                                             {item.icon}

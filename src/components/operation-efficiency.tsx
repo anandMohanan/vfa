@@ -37,11 +37,14 @@ export const OperationEfficiencySection = () => {
         <section className="lg:p-10 md:p-15 md:mt-16 ">
             <div className="flex flex-col gap-5 items-center justify-center">
                 <Button className={cn(" md:text-[20px] font-[500px] text-sm rounded-full  text-white bg-black w-fit",
-                    "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
+                    "bg-black ",
+                    "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
+                    "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
+                    "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
                     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                    "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", secondary_jakarta.className)}>
+                    secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
                 <h3 className={cn("text-white lg:text-[36px] text-lg", secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
@@ -74,7 +77,7 @@ export const OperationEfficiencySection = () => {
                     }
                 </div>
                 <div className="z-100 lg:block hidden">
-                    <Image alt="efficiency" src="/efficiency.png" width={800} height={800} />
+                    <Image alt="efficiency" src="/efficiency.png" width={800} height={800} className="h-[400px]" />
                 </div>
                 <div className="z-100 md:hidden block">
                     <Image alt="efficiency" src="/mobile-operation-efficiency.png" width={800} height={800} />
@@ -105,6 +108,6 @@ export const OperationEfficiencySection = () => {
                     }
                 </div>
             </div>
-        </section>
+        </section >
     )
 }

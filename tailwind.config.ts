@@ -19,9 +19,9 @@ const config = {
         },
         extend: {
             screens: {
-               lgxl: "2000px", 
-               lg2xl: "2500px", 
-               lg3xl: "3000px", 
+                lgxl: "2000px",
+                lg2xl: "2500px",
+                lg3xl: "3000px",
             },
             colors: {
                 border: "hsl(var(--border))",

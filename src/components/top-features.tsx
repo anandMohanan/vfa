@@ -14,11 +14,9 @@ export const TopFeaturesSection = () => {
 
         <section className="top_section w-full ">
             <div className="relative hidden md:flex items-center justify-center  m-auto p-2">
-                {
-                    // <div className="hidden lg:block lg:absolute -top-20 z-10">
-                    //     <LineSvg className="" />
-                    // </div>
-                }
+                <div className="hidden lg:block lg:absolute top-0 z-10">
+                    <LineSvg className="" />
+                </div>
                 <Badge
                     variant={"outline"}
                     className={cn("text-white hidden md:block z-20 text-sm md:text-[20px] p-2 px-8",
@@ -33,11 +31,11 @@ export const TopFeaturesSection = () => {
             <div className="flex lg:flex-row flex-col md:gap-34 lg:gap-56 justify-evenly items-center  lg:p-36 md:p-10 ">
                 <div className="flex flex-col p-5 items-center z-50 lgxl:p-0 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
-                        className={cn("text-white w-fit text-[16px] text-center lg:text-center md:text-[20px] p-2 px-8",
+                        className={cn("text-white w-fit text-[16px] text-center m-auto lg:m-0 lg:text-center md:text-[20px] p-2 px-8",
                             "bg-black border-[0.3px]",
                             "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
                             "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
-                            " shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] ",
+                            "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}
                     > Customer Support</Badge>
                     <h3 className={cn("text-white text-[24px]  md:text-[35.94px] font-[500px]",
@@ -66,8 +64,9 @@ export const TopFeaturesSection = () => {
                         // )}>
                         // Customer First</Button>
                     }
-                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0",
+                    <Button variant="default" className={cn("rounded-none font-bold m-auto lg:m-0",
                         "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
+                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                         "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
                         Customer First</Button>
                 </div>
@@ -78,17 +77,17 @@ export const TopFeaturesSection = () => {
             <div className="flex lg:flex-row-reverse flex-col md:gap-34 lg:gap-56 justify-evenly items-center  md:p-36 mt-5 lg:mt-0 ">
                 <div className="flex flex-col p-5 items-center z-50 lgxl:p-0 md:items-start gap-5 md:p-10 mb-10">
                     <Badge
-                        className={cn("text-white w-fit text-[16px] text-center lg:text-center md:text-[20px] p-2 px-8",
+                        className={cn("text-white w-fit text-[16px] text-center lg:m-0 m-auto lg:text-center md:text-[20px] p-2 px-8",
                             "bg-black border-[0.3px]",
                             "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
                             "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
-                            " shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] ",
+                            "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                             "hover:border-cornflowerblue-600", secondary_jakarta.className)}
                     >
                         Agent-driven Outreach
                     </Badge>
                     <h3 className={cn("text-white text-[24px]  md:text-[35.94px] font-[500px]",
-                        "text-center md:text-left  lgxl:text-[50px] lg2xl:text-[80px] lg3xl:text-[120px]", secondary_jakarta.className)}>
+                        "text-center lg:text-left  lgxl:text-[50px] lg2xl:text-[80px] lg3xl:text-[120px]", secondary_jakarta.className)}>
                         Accelerate Sales With {" "}
                         <span className="
                         text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#698aff,_#3f5399)]
@@ -114,10 +113,11 @@ export const TopFeaturesSection = () => {
                         //     Increase your sales
                         // </Button>
                     }
-                    <Button variant="default" className={cn(" font-bold m-auto lg:m-0",
+                    <Button variant="default" className={cn("rounded-none font-bold m-auto lg:m-0",
                         "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
+                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                         "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
-                    Increase your sales</Button>
+                        Increase your sales</Button>
                 </div>
                 <div className="min-w-[50%]">
                     <LottieAnimation ani={CustomerChatFlow} />

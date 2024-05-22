@@ -270,7 +270,7 @@ export const BrainIcon = () => {
 
 export const LineSvg = ({ className }: { className?: string }) => {
     return (
-        <svg className={className} width="98" height="1900" viewBox="0 0 98 1564" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="98" height="1659" viewBox="0 0 98 1659" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M48 0L47.9999 1564" stroke="#273373" stroke-width="3" stroke-dasharray="12 12" />
             <g filter="url(#filter0_d_0_1)">
                 <rect x="17" y="210" width="62" height="62" rx="31" fill="black" />
@@ -282,6 +282,11 @@ export const LineSvg = ({ className }: { className?: string }) => {
                 <rect x="17.75" y="1007.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint1_linear_0_1)" stroke-width="1.5" />
                 <path d="M40.0833 1041.17L42.9283 1037.75C44.0557 1036.4 44.6194 1035.72 45.361 1035.72C46.1026 1035.72 46.6663 1036.4 47.7938 1037.75L48.2061 1038.25C49.3336 1039.6 49.8972 1040.28 50.6389 1040.28C51.3803 1040.28 51.9442 1039.6 53.0715 1038.25L55.9166 1034.83" stroke="white" stroke-width="2" stroke-linecap="round" />
                 <path d="M63.8334 1038C63.8334 1045.46 63.8334 1049.2 61.5146 1051.51C59.196 1053.83 55.4639 1053.83 48.0001 1053.83C40.5362 1053.83 36.8042 1053.83 34.4855 1051.51C32.1667 1049.2 32.1667 1045.46 32.1667 1038C32.1667 1030.54 32.1667 1026.8 34.4855 1024.49C36.8042 1022.17 40.5362 1022.17 48.0001 1022.17C55.4639 1022.17 59.196 1022.17 61.5146 1024.49C63.0565 1026.03 63.5731 1028.19 63.7462 1031.67" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </g>
+            <g filter="url(#filter2_d_0_1)">
+                <rect x="17" y="1580" width="62" height="62" rx="31" fill="black" />
+                <rect x="17.75" y="1580.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint2_linear_0_1)" stroke-width="1.5" />
+                <path d="M60.375 1611C60.375 1617.83 54.8346 1623.38 48 1623.38C44.8305 1623.38 41.9394 1622.18 39.75 1620.22L35.625 1616.5M35.625 1616.5V1623.38M35.625 1616.5H42.5M35.625 1611C35.625 1604.17 41.1655 1598.62 48 1598.62C51.1695 1598.62 54.0606 1599.82 56.25 1601.78L60.375 1605.5M60.375 1605.5V1598.62M60.375 1605.5H53.5" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
             </g>
             <defs>
                 <filter id="filter0_d_0_1" x="0.5" y="191.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -306,6 +311,17 @@ export const LineSvg = ({ className }: { className?: string }) => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
+                <filter id="filter2_d_0_1" x="0.5" y="1561.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1" />
+                    <feOffset dx="1" dy="-1" />
+                    <feGaussianBlur stdDeviation="6.75" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0665343 0 0 0 0 0.0550521 0 0 0 0 0.629167 0 0 0 0.53 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
+                </filter>
                 <linearGradient id="paint0_linear_0_1" x1="19.2012" y1="214.5" x2="85.2259" y2="222.97" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#94A5FF" />
                     <stop offset="0.56944" stop-color="#7C5ED2" />
@@ -316,10 +332,13 @@ export const LineSvg = ({ className }: { className?: string }) => {
                     <stop offset="0.56944" stop-color="#7C5ED2" />
                     <stop offset="1" stop-color="#203189" />
                 </linearGradient>
+                <linearGradient id="paint2_linear_0_1" x1="19.2012" y1="1584.5" x2="85.2259" y2="1592.97" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#94A5FF" />
+                    <stop offset="0.56944" stop-color="#7C5ED2" />
+                    <stop offset="1" stop-color="#203189" />
+                </linearGradient>
             </defs>
         </svg>
-
-
     )
 
 }

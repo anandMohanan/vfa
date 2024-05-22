@@ -8,38 +8,10 @@ import { LottieAnimation } from "./animation"
 
 export const OperationAutomationSection = () => {
     return (
-        <section className="relative flex flex-col items-end justify-start max-w-full text-left  text-white">
-            <div className="m-auto z-20">
-                <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g filter="url(#filter0_d_106_1302)">
-                        <rect x="17" y="19" width="62" height="62" rx="31" fill="black" />
-                        <rect x="17.75" y="19.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint0_linear_106_1302)" stroke-width="1.5" />
-                        <path d="M60.375 50C60.375 56.8346 54.8346 62.375 48 62.375C44.8305 62.375 41.9394 61.1834 39.75 59.2239L35.625 55.5M35.625 55.5V62.375M35.625 55.5H42.5M35.625 50C35.625 43.1655 41.1655 37.625 48 37.625C51.1695 37.625 54.0606 38.8165 56.25 40.7761L60.375 44.5M60.375 44.5V37.625M60.375 44.5H53.5" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_d_106_1302" x="0.5" y="0.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_106_1302" />
-                            <feOffset dx="1" dy="-1" />
-                            <feGaussianBlur stdDeviation="6.75" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.0665343 0 0 0 0 0.0550521 0 0 0 0 0.629167 0 0 0 0.53 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_106_1302" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_106_1302" result="shape" />
-                        </filter>
-                        <linearGradient id="paint0_linear_106_1302" x1="19.2012" y1="23.5" x2="85.2259" y2="31.9703" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#94A5FF" />
-                            <stop offset="0.56944" stop-color="#7C5ED2" />
-                            <stop offset="1" stop-color="#203189" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-
-            </div>
+        <section className="relative flex flex-col items-end justify-start max-w-full text-left md:mb-10  text-white">
             <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
-                    {cn("  bg-[transparent] m-auto",
+                    {cn(" cursor-none  bg-[transparent] m-auto",
                         "lg2xl:p-4 lg3xl:p-6 lgxl:p-8 lg2xl:px-16 lg3xl:px-20 lgxl:px-24",
                         "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                         "shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded-3xl",
@@ -49,20 +21,21 @@ export const OperationAutomationSection = () => {
                     Operation Automation
                 </Button>
                 <div className="rounded-xl 
-                 w-full  flex lg:flex-row flex-col items-start justify-center
+                 min-w-full  flex lg:flex-row flex-col items-start justify-center
                md:p-10 
+               [background:linear-gradient(97.31deg,_#0A0A0A,_#000000)]
                p-6
                mt-6
                md:mt-0
                 max-w-full md:border-[0.5px]  border-gray-100 border:none ">
-                    <div className="md:w-[575px] flex flex-col  items-start justify-start md:pt-[134px] 
+                    <div className="md:w-[575px] flex flex-col  items-start justify-start lg:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl ">
                         <div className="flex flex-col items-start justify-start gap-[43px] max-w-full">
                             <div className="flex flex-row items-start justify-start py-0 pr-0 pl-2 max-w-full">
-                                <div className="flex-1 flex flex-col items-start justify-start gap-[8px] max-w-full">
+                                <div className="flex-1 flex flex-col lg:items-start lg:justify-start items-center justify-center gap-[8px] max-w-full">
                                     <h3 className={cn(
                                         "md:leading-[52px]",
-                                        "capitalize font-medium text-center md:text-left",
+                                        "capitalize font-medium text-center lg:text-left",
                                         "md:text-4xl text-xl", primary_font.className)} >
                                         {`Automate workflows for `}
                                         <span className="text-transparent
@@ -72,7 +45,7 @@ export const OperationAutomationSection = () => {
                                         </span>
                                         collaboration
                                     </h3>
-                                    <p className={cn("md:text-xl text-md md:text-left text-center",
+                                    <p className={cn("md:text-xl text-md lg:text-left text-center",
                                         "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
                                         Enhance team communication and process flow,  as our agents  smoothly integrates with and automates
                                         your operational communications.
@@ -86,7 +59,7 @@ export const OperationAutomationSection = () => {
                                     "px-6 py-4",
                                     "text-md",
                                     "m-auto",
-                                    "md:m-0",
+                                    "lg:m-0",
                                     "md:text-xl",
                                     "whitespace-nowrap ",
                                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-300",

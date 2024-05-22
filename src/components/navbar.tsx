@@ -5,10 +5,10 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { primary_font, secondary_jakarta } from "@/lib/font";
 
-export const Navbar =  () => {
+export const Navbar = () => {
     return (
         <nav className={cn(" z-100 top-0 flex h-16 items-center gap-4 px-4 md:px-6 lg:mt-6 lg:mb-6 ", secondary_jakarta.className)}>
-            <div className="flex md:w-full items-center justify-between ">
+            <div className="flex  items-center justify-between ">
                 <div className="hidden lg:flex  lg:flex-4">
                     <Link href={"/"} className="flex text-xl text-white font-semibold md:text-base items-center  align-middle">
                         <svg width="27.8" height="24.8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,9 +38,8 @@ export const Navbar =  () => {
                 </Link>
             </div>
             <div className="flex w-full md:w-auto justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4">
-                <Button className=" 
+                <Button variant={"default"} className=" 
                 shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.61)]
-                bg-gray-100
                 md:px-6 md:py-6
                 px-4 py-4
                 text-md

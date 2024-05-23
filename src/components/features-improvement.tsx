@@ -45,10 +45,9 @@ export const FeaturesImprovementSection = () => {
                 <div className="md:absolute  flex  flex-col   p-10 gap-5  justify-center ">
 
                     <Button className={cn(" md:text-[20px] text-sm md:text-left text-center text-white bg-black w-fit",
-                        "",
                         "shadow-[0px_0px_6.9px_rgba(82,79,_255,_0.15)] ",
                         " overflow-hidden whitespace-nowrap",
-                        "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                        "text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#698aff)]",
                         "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
                         "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.15)] ", primary_font.className)}>
                         Agent&apos;s Capability

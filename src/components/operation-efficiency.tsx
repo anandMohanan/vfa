@@ -41,13 +41,12 @@ export const OperationEfficiencySection = () => {
                     "bg-black ",
                     "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
                     "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
-                    "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
-                    "bg-transparent text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                    "text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#698aff)]",
                     "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
                     secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
-                <h3 className={cn("text-white lg:text-[36px] text-lg",
+                <h3 className={cn("text-white lg:text-[36px] text-lg p-2",
                     "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#FFFFFF,_#999999)]",
                     secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
             </div>

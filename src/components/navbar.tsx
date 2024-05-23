@@ -7,7 +7,7 @@ import { primary_font, secondary_jakarta } from "@/lib/font";
 
 export const Navbar = () => {
     return (
-        <nav className={cn(" z-100 top-0 flex h-16 items-center gap-4 px-4 md:px-6 lg:mt-6 lg:mb-6 ", secondary_jakarta.className)}>
+        <nav className={cn(" z-100 top-0 flex h-[10vh] items-center gap-4 px-4 md:px-6 ", secondary_jakarta.className)}>
             <div className="flex  items-center justify-between ">
                 <div className="hidden lg:flex  lg:flex-4">
                     <Link href={"/"} className="flex text-xl text-white font-semibold md:text-base items-center  align-middle">

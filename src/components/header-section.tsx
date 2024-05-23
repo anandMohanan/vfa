@@ -7,8 +7,8 @@ import { LottieAnimation } from "./animation"
 
 export const HeaderSection = () => {
     return (
-        <header className=" header_section w-full min-h-screen mt-5 md:mt-0 ">
-            <div className=" bg_grid flex flex-col  items-start justify-start gap-6">
+        <header className=" header_section w-full  mt-5 md:mt-0 ">
+            <div className=" bg_grid flex flex-col  justify-evenly  gap-6 h-[90vh]">
                 {/* Top Button */}
                 <div className=" lg:w-[50rem] lgxl:w-[60rem] lgxl:h-12  h-12 relative m-auto flex flex-col justify-center items-center  ">
                     <div className="line hidden  md:block absolute md:w-[50rem] md:h-[0.6px] 
@@ -26,7 +26,7 @@ export const HeaderSection = () => {
                 </div>
 
                 {/* Hero */}
-                <div className="md:max-w-[50%] max-w-[80%] lgxl:my-2 lg2xl:my-20 lg3xl:my-28 my-4 m-auto">
+                <div className="md:max-w-[50%] max-w-[80%] lgxl:my-2 lg2xl:my-20 lg3xl:my-28 m-auto">
                     <div className="mb-4">
                         <h1 className={cn("text-white md:mb-4 font-light  text-[28px] leading-[35.28px]  md:text-[48px] lg:text-[48px]",
                             "lgxl:text-[50px] lg2xl:text-[80px] lg3xl:text-[120px] text-center lgxl:p-4 lg2xl:p-8", secondary_jakarta.className)}>
@@ -51,16 +51,18 @@ export const HeaderSection = () => {
                 </div>
 
                 {/* SVG */}
-                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72 h-60 lgxl:h-70 lg2xl:h-120 lg3xl:h-140 overflow-hidden w-full">
+                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72 h-40 lgxl:h-70
+                lg2xl:h-120 lg3xl:h-140 overflow-hidden w-full">
                     <LottieAnimation
                         ani={ani}
-                        className="md:w-[500px] w-[250px] lgxl:w-[600px] lg2xl:w-[900px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        className="md:w-[500px] w-[250px] lgxl:w-[600px] lg2xl:w-[900px]
+                        absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                         data-scroll data-scroll-speed="0.3"
                     />
                 </div>
                 {/* CTA */}
-                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full m-auto md:px-16 md:py-8 px-8 py-4 text-[18px]",
-                    "md:text-[24px] lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 lgxl:my-8",
+                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full lg:mb-8 m-auto md:my-4 md:px-16 md:py-8 px-8 py-4 text-[18px]",
+                    "md:text-[24px] lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 lgxl:my-8 ",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",

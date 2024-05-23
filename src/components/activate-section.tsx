@@ -11,7 +11,7 @@ export const ActivateSection = () => {
                 <h3 className={cn("lg:text-4xl md:text-[36px] text-[24px] md:text-left text-center  font-semibold", primary_font.className)}>
                     Ready To have Your VoiceFirst <br /> agents That Help You ?
                 </h3>
-                <p className={cn("md:text-[25px] w-[80%] m-auto md:m-0 lg:leading-[25.2px] md:text-justify text-center   text-[16px] ", secondary_jakarta.className)}>
+                <p className={cn("md:text-[25px] opacity-80 w-[90%] m-auto md:m-0 lg:leading-[25.2px] md:text-justify text-center   text-[16px] ", secondary_jakarta.className)}>
                     Have questions or need more info? Contact us about our innovative Voice AI solutions.
                 </p>
                 <Link href="/submit" className={cn(buttonVariants(),

@@ -9,7 +9,7 @@ import Link from "next/link"
 
 export const OperationAutomationSection = () => {
     return (
-        <section className="relative flex flex-col items-end justify-start max-w-full text-left md:mb-10  text-white">
+        <section className="relative flex flex-col items-end justify-start max-w-full text-left md:mb-10 mt-40  text-white">
             <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
                     {cn(" cursor-none  bg-[transparent] m-auto",
@@ -24,11 +24,10 @@ export const OperationAutomationSection = () => {
                 <div className="rounded-xl 
                  min-w-full  flex lg:flex-row flex-col items-start justify-center
                md:p-10 
-               [background:linear-gradient(97.31deg,_#0A0A0A,_#000000)]
                p-6
                mt-6
                md:mt-0
-                max-w-full md:border-[0.5px]  border-gray-100 border:none ">
+                max-w-full md:border-[0.5px]  border-gray-100  ">
                     <div className="md:w-[575px] flex flex-col  items-start justify-start lg:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl ">
                         <div className="flex flex-col items-start justify-start gap-[43px] max-w-full">
@@ -46,7 +45,7 @@ export const OperationAutomationSection = () => {
                                         </span>
                                         collaboration
                                     </h3>
-                                    <p className={cn("md:text-xl text-md lg:text-left text-center",
+                                    <p className={cn("md:text-xl opacity-80 text-md lg:text-left text-center",
                                         "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
                                         Enhance team communication and process flow,  as our agents  smoothly integrates with and automates
                                         your operational communications.

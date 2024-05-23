@@ -200,3 +200,21 @@ html.has-scroll-dragging {
   [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
     right: auto;
     bottom: 0; }
+
+
+    .gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: -5px; /* Adjust as needed */
+  border-radius: inherit ;
+  background: linear-gradient(90deg, #4658B6 0%, #6A53AD 57%, #203189 100%);
+}

@@ -47,7 +47,9 @@ export const OperationEfficiencySection = () => {
                     secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
-                <h3 className={cn("text-white lg:text-[36px] text-lg", secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
+                <h3 className={cn("text-white lg:text-[36px] text-lg",
+                    "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#FFFFFF,_#999999)]",
+                    secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
             </div>
             <div className="p-10 flex md:flex-row flex-col md:gap-12 lg:gap-0">
 
@@ -63,8 +65,7 @@ export const OperationEfficiencySection = () => {
                                             {item.icon}
                                             <CardTitle className={cn("text-white text-[20px] ",
                                                 "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#6977F0,_#4255FC)]",
-                                                "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]",
-                                                primary_font.className
+                                                "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
                                             )}><span className="font-extrabold">{item.header}</span></CardTitle>
                                             <CardDescription className={cn("text-[18px] text-whitesmoke font-extralight ", secondary_jakarta.className)}>
                                                 {item.description}
@@ -92,10 +93,9 @@ export const OperationEfficiencySection = () => {
                                         <CardHeader className={cn(
                                         )}>
                                             {item.icon}
-                                            <CardTitle className={cn("text-white text-[20px] ",
+                                            <CardTitle className={cn("text-white font-bold text-[20px] ",
                                                 "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#6977F0,_#4255FC)]",
-                                                "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]",
-                                                primary_font.className
+                                                "[-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
                                             )}><span className="font-extrabold">{item.header}</span></CardTitle>
                                             <CardDescription className={cn("text-[18px] text-whitesmoke font-extralight ", secondary_jakarta.className)}>
                                                 {item.description}

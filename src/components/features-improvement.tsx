@@ -85,7 +85,7 @@ export const FeaturesImprovementSection = () => {
                                 <Card key={id} className="md:h-[225px] bg-black lg:w-[400px] w-[300px] h-[200px] p-0  border-none  rounded-2xl ">
                                     <CardHeader className=" m-auto h-full flex flex-col justify-evenly p-4" >
                                         {item.icon}
-                                        <CardTitle className={cn("text-white md:text-[20px] font-[600px] text-md", primary_font.className)}>{item.header}</CardTitle>
+                                        <CardTitle className={cn("text-white md:text-[20px] font-bold text-md")}>{item.header}</CardTitle>
                                         <CardDescription className={cn("md:text-[16px] text-sm py-2 text-whitesmoke", secondary_jakarta.className)}>
                                             {item.description}
                                         </CardDescription>

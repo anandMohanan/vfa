@@ -22,7 +22,7 @@ const SubmitPage = () => {
                         <li>Discuss pricing and timeline </li>
                     </ul>
                 </div>
-                <div className="bg-pink-400 flex grow lg:h-[50vh]">
+                <div className="flex grow lg:h-[50vh]">
                     <Image src="/activate.png" alt="activate" width={600} height={200} className="h-full w-full" />
                 </div>
             </div>

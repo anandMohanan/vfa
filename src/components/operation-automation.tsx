@@ -12,12 +12,12 @@ export const OperationAutomationSection = () => {
         <section className="relative flex flex-col items-end justify-start max-w-full text-left md:mb-10 mt-40  text-white">
             <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
-                    {cn(" cursor-normal absolute top-[2%] lg:left-[42%] md:left-[38%]  bg-[transparent] m-auto",
+                    {cn(" cursor-normal absolute top-[4%] md:top-[2%] left-[35%] lg:left-[42%] md:left-[38%]  bg-[transparent] m-auto",
                         "lg2xl:p-4 lg3xl:p-6 lgxl:p-8 lg2xl:px-16 lg3xl:px-20 lgxl:px-24",
                         "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                         "shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded-lg",
                         "     [background:linear-gradient(97.31deg,_#b68bfc,_#7354ef_47.79%,_#5e25ff)] overflow-hidden",
-                        "whitespace-nowrap z-[1] border-[0.3px] border-solid border-black hover:bg-darkslategray-500",
+                        "whitespace-nowrap z-[1]  hover:bg-darkslategray-500",
                         "hover:box-border  hover:border-darkslategray-300", primary_font.className)}>
                     Operation Automation
                 </Button>
@@ -28,7 +28,7 @@ export const OperationAutomationSection = () => {
                p-6
                mt-6
                md:mt-0
-                max-w-full md:border-[0.5px]  border-gray-100  ">
+                max-w-full border  border-gray-100  ">
                     <div className="md:w-[575px] flex flex-col  items-start justify-start lg:pt-[134px] 
                     px-0 pb-0 box-border md:min-w-[575px] max-w-full rounded-xl ">
                         <div className="flex flex-col items-start justify-start gap-[43px] max-w-full">

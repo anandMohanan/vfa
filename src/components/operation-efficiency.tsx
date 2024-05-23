@@ -46,7 +46,7 @@ export const OperationEfficiencySection = () => {
                     secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
-                <h3 className={cn("text-white lg:text-[36px] text-lg p-2",
+                <h3 className={cn("text-white lg:text-[36px] text-2xl p-2",
                     "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#FFFFFF,_#999999)]",
                     secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
             </div>

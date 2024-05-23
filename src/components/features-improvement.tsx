@@ -40,7 +40,7 @@ export const FeaturesImprovementSection = () => {
         },
     ]
     return (
-        <section className="relative min-h-screen w-full  md:p-10 flex flex-col items-center ">
+        <section className="mt-10 relative min-h-screen w-full  md:p-10 flex flex-col items-center ">
             <div className="relative md:block  feature_box rounded-xl  w-[80%]   h-[338px]   ">
                 <div className="md:absolute  flex  flex-col   p-10 gap-5  justify-center ">
 

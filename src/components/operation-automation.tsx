@@ -12,7 +12,7 @@ export const OperationAutomationSection = () => {
         <section className="relative flex flex-col items-end justify-start max-w-full text-left md:mb-10 mt-40  text-white">
             <div className="flex flex-col max-w-full mt-10 ">
                 <Button className=
-                    {cn(" cursor-normal absolute top-[4%] md:top-[2%] left-[35%] lg:left-[42%] md:left-[38%]  bg-[transparent] m-auto",
+                    {cn(" cursor-normal absolute top-[5%] md:top-[2%] left-[28%] lg:left-[42%] md:left-[38%]  bg-[transparent] m-auto",
                         "lg2xl:p-4 lg3xl:p-6 lgxl:p-8 lg2xl:px-16 lg3xl:px-20 lgxl:px-24",
                         "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px] ",
                         "shadow-[0px_0px_6.9px_rgba(82, _79, _255, _0.15)] rounded-lg",

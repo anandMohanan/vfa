@@ -1,7 +1,8 @@
 
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 import { primary_font, secondary_jakarta } from "@/lib/font";
+import Link from "next/link";
 
 export const FooterSection = () => {
     return (
@@ -48,8 +49,8 @@ export const FooterSection = () => {
                 <div className="flex flex-col gap-2 lg:col-start-5 lg:col-span-3 col-span-4">
                     <h3 className={cn("text-3xl text-white mb-8 font-extrabold", primary_font.className)}>Get started with personal AI Manager now </h3>
                     <div className={cn("flex flex-row ", secondary_jakarta.className)}>
-                        <Button variant="default" className="rounded-3xl " size={"lg"}>Try Voicefirst</Button>
-                        <Button variant="outline" className="rounded-3xl ml-5" size={"lg"}>Watch Demo</Button>
+                        <Link className={cn(buttonVariants(), "rounded-3xl ")} href={"/submit"}>Try Voicefirst</Link>
+                        <Link className={cn(buttonVariants({ variant: "outline" }), "rounded-3xl ml-5")} href="/submit" >Watch Demo</Link>
                     </div>
                 </div>
             </section>

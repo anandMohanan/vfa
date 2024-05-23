@@ -1,10 +1,11 @@
 
-import { Button } from "./ui/button"
+import { Button, buttonVariants } from "./ui/button"
 import ani from "../../public/operation-automation-flow.json"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { LottieAnimation } from "./animation"
+import Link from "next/link"
 
 export const OperationAutomationSection = () => {
     return (
@@ -52,8 +53,8 @@ export const OperationAutomationSection = () => {
                                     </p>
                                 </div>
                             </div>
-                            <Button className=
-                                {cn("bg-black shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
+                            <Link href={`/submit`} className=
+                                {cn(buttonVariants(), "bg-black shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
                                     "rounded-xl overflow-hidden",
                                     "md:px-10 md:py-7",
                                     "px-6 py-4",
@@ -65,7 +66,7 @@ export const OperationAutomationSection = () => {
                                     "border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-300",
                                     " hover:border-cornflowerblue-600", primary_font.className)}>
                                 Experience the efficiency
-                            </Button>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex-1 flex flex-col items-start justify-start relative gap-[20px] md:min-w-[408px] min-w-[200px] max-w-full

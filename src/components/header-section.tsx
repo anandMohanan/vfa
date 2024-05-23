@@ -1,9 +1,10 @@
 import { Badge } from "./ui/badge"
 import ani from "../../public/flow-4.json"
-import { Button } from "./ui/button"
+import { Button, buttonVariants } from "./ui/button"
 import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { LottieAnimation } from "./animation"
+import Link from "next/link"
 
 export const HeaderSection = () => {
     return (
@@ -61,7 +62,8 @@ export const HeaderSection = () => {
                     />
                 </div>
                 {/* CTA */}
-                <Button data-scroll data-scroll-speed="0.3" className={cn("rounded-full lg:mb-8 m-auto md:my-4 md:px-16 md:py-8 px-8 py-4 text-[18px]",
+                <Link href="/submit" className={cn(buttonVariants(),
+                    "rounded-full lg:mb-8 m-auto md:my-4 md:px-16 md:py-8 px-8 py-4 text-[18px]",
                     "md:text-[24px] lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 lgxl:my-8 ",
                     "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                     " overflow-hidden whitespace-nowrap",
@@ -72,7 +74,7 @@ export const HeaderSection = () => {
                     primary_font.className
                 )}>
                     Activate your Agents
-                </Button>
+                </Link>
             </div>
         </header >
     );

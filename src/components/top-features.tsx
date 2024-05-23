@@ -1,5 +1,5 @@
 import { LineSvg } from "@/lib/icons"
-import { Button } from "./ui/button"
+import { Button, buttonVariants } from "./ui/button"
 import { Badge } from "./ui/badge"
 import { primary_font, secondary_jakarta } from "@/lib/font"
 import { cn } from "@/lib/utils"
@@ -8,6 +8,7 @@ import CustomerCallFlow from '../../public/flow-6.json'
 import CustomerChatFlow from '../../public/customer-chat-flow.json'
 
 import { LottieAnimation } from "./animation"
+import Link from "next/link"
 
 export const TopFeaturesSection = () => {
     return (
@@ -64,11 +65,11 @@ export const TopFeaturesSection = () => {
                         // )}>
                         // Customer First</Button>
                     }
-                    <Button variant="default" className={cn("rounded-none font-bold m-auto lg:m-0",
+                    <Link href={"/submit"} className={cn(buttonVariants(), "rounded-none font-bold m-auto lg:m-0",
                         "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
                         "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                         "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
-                        Customer First</Button>
+                        Customer First</Link>
                 </div>
                 <div className="min-w-[30%]">
                     <LottieAnimation ani={CustomerCallFlow} />
@@ -113,11 +114,11 @@ export const TopFeaturesSection = () => {
                         //     Increase your sales
                         // </Button>
                     }
-                    <Button variant="default" className={cn("rounded-none font-bold m-auto lg:m-0",
+                    <Link href="/submit" className={cn(buttonVariants(), "rounded-none font-bold m-auto lg:m-0",
                         "md:p-6 md:text-[24px] text-[16px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
                         "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
                         "lgxl:p-8 lg2xl:p-10 lg3xl:p-12", primary_font.className)}>
-                        Increase your sales</Button>
+                        Increase your sales</Link>
                 </div>
                 <div className="min-w-[50%]">
                     <LottieAnimation ani={CustomerChatFlow} />

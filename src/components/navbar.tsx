@@ -38,21 +38,19 @@ export const Navbar = () => {
                 </Link>
             </div>
             <div className="flex w-full md:w-auto justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4">
-                <Button variant={"default"} className=" 
-                shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.61)]
-                md:px-6 md:py-6
-                px-4 py-4
-                text-md
-                    border-[1px] border-solid border-cornflowerblue-300
-                    hover:bg-cornflowerblue-300 hover:box-border hover:border-[1px] hover:border-solid 
-                    hover:border-cornflowerblue-600 text-xl
-                hover:shadow-[0px_0px_30px_rgba(82,_79,_255,_0.61)]
-                    ">
-                    Try Demo </Button>
+                <Link href={"/submit"} className={cn(buttonVariants(),
+                    "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.61)]",
+                    "md:px-6 md:py-6 px-4 py-4",
+                    "text-md border-[1px] border-solid border-cornflowerblue-300",
+                    "hover:bg-cornflowerblue-300 hover:box-border hover:border-[1px] hover:border-solid",
+                    " hover:border-cornflowerblue-600 text-xl",
+                    "hover:shadow-[0px_0px_30px_rgba(82,_79,_255,_0.61)]"
+                )}>
+                    Try Demo </Link>
 
 
             </div>
-        </nav>
+        </nav >
     );
     // [border-image:linear-gradient(97.31deg, #94A5FF 3.97%, #7C5ED2 58.6%, #203189 99.91%)]
 };

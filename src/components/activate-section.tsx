@@ -1,7 +1,8 @@
 import Image from "next/image"
-import { Button } from "./ui/button"
+import { Button, buttonVariants } from "./ui/button"
 import { cn } from "@/lib/utils"
 import { primary_font, secondary_jakarta } from "@/lib/font"
+import Link from "next/link"
 
 export const ActivateSection = () => {
     return (
@@ -13,7 +14,8 @@ export const ActivateSection = () => {
                 <p className={cn("md:text-[25px] w-[80%] m-auto md:m-0 lg:leading-[25.2px] md:text-justify text-center   text-[16px] ", secondary_jakarta.className)}>
                     Have questions or need more info? Contact us about our innovative Voice AI solutions.
                 </p>
-                <Button className={cn(" m-auto md:m-0 rounded-full md:px-16 md:py-8 px-12 py-4 text-2xl",
+                <Link href="/submit" className={cn(buttonVariants(),
+                    " m-auto md:m-0 rounded-full md:px-16 md:py-8 px-12 py-4 text-2xl",
                     " shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
                     " whitespace-nowrap border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
                     " hover:border-[1.5px]  hover:border-cornflowerblue-600",
@@ -23,7 +25,7 @@ text-transparent !bg-clip-text text-[20px] md:text-[24px] font-extrabold
 [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)] [-webkit-background-clip:text] 
                       [-webkit-text-fill-color:transparent]
                 ">Enable VoiceFirstAI</span>
-                </Button>
+                </Link>
             </div>
             <div className="lg:w-[50%] md:w-[100%]">
                 <Image src="/activate.png" alt="activate" width={1000} height={800} />

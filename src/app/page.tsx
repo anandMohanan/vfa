@@ -6,15 +6,14 @@ import { OperationEfficiencySection } from "@/components/operation-efficiency";
 import { TopFeaturesSection } from "@/components/top-features";
 
 export default async function Home() {
-    return (
-        <main className="relative flex flex-col items-center justify-between ">
-            <HeaderSection />
-            <TopFeaturesSection />
-            <OperationAutomationSection />
-            <FeaturesImprovementSection />
-            <OperationEfficiencySection />
-            <ActivateSection />
-
-        </main>
-    );
+  return (
+    <main className="relative flex flex-col items-center justify-between ">
+      <HeaderSection />
+      <TopFeaturesSection />
+      <OperationAutomationSection />
+      <FeaturesImprovementSection />
+      <OperationEfficiencySection />
+      <ActivateSection />
+    </main>
+  );
 }

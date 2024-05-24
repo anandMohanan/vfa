@@ -34,7 +34,7 @@ export const OperationEfficiencySection = () => {
         },
     ]
     return (
-        <section className="lg:p-10 md:p-15 md:mt-16 ">
+        <section className="lg:p-10 md:p-15 md:mt-16 lgxl:mt-2 ">
             <div className="flex flex-col gap-5 items-center justify-center">
                 <Button className={cn(" md:text-[20px] font-[500px] text-xl rounded-full  text-white bg-black w-fit",
                     " overflow-hidden whitespace-nowrap",

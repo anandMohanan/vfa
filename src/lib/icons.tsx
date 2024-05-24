@@ -269,7 +269,7 @@ export const BrainIcon = () => {
 
 export const LineSvg = ({ className }: { className?: string }) => {
     return (
-        <svg width="98" height="1500" viewBox="0 0 98 1659" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="98" height="1700" viewBox="0 0 98 1659" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M48 0L47.9999 1564" stroke="#273373" strokeWidth="3" strokeDasharray="12 12" />
             <g filter="url(#filter0_d_0_1)">
                 <rect x="17" y="210" width="62" height="62" rx="31" fill="black" />

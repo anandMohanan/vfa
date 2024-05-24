@@ -7,15 +7,15 @@ import Link from "next/link"
 export const ActivateSection = () => {
     return (
         <section className="flex z-50  lg:flex-row flex-col  ">
-            <div className="flex flex-col gap-10  text-white lg:w-[50%] lg:p-32 md:w-[100%] md:p-10 p-4 z-50">
-                <h3 className={cn("lg:text-4xl md:text-[36px] text-[24px] md:text-left text-center  font-semibold", primary_font.className)}>
+            <div className="flex flex-col gap-10  text-white lg:w-[50%] lg:p-20 md:w-[100%] p-4 z-50 ">
+                <h3 className={cn("lg:text-4xl md:text-[36px] text-[20px] lg:text-left text-center  font-semibold", primary_font.className)}>
                     Ready To have Your VoiceFirst <br /> agents That Help You ?
                 </h3>
-                <p className={cn("md:text-[25px] opacity-80 w-[90%] m-auto md:m-0 lg:leading-[25.2px] md:text-justify text-center   text-[16px] ", secondary_jakarta.className)}>
+                <p className={cn("md:text-[25px] opacity-80 w-[90%] m-auto lg:m-0 lg:leading-[25.2px] lg:text-left text-center   text-[16px] ", secondary_jakarta.className)}>
                     Have questions or need more info? Contact us about our innovative Voice AI solutions.
                 </p>
                 <Link href="/submit" className={cn(buttonVariants(),
-                    " m-auto md:m-0 rounded-full md:px-16 md:py-8 px-12 py-4 text-2xl",
+                    " m-auto lg:m-0 rounded-full md:px-16 md:py-8 px-12 py-4 text-2xl",
                     " shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
                     " whitespace-nowrap border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
                     " hover:border-[1.5px]  hover:border-cornflowerblue-600",

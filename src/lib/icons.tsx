@@ -1,7 +1,7 @@
 export const RocketIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M45.75 13.25C45.0103 23.323 42.3853 30.6147 37.875 35.125C37.0751 35.9249 36.1993 36.6561 35.2475 37.3187L35.2475 41.2419L29.9975 46.4919L26.7938 40.8856L18.1212 32.2121L12.5 29L17.75 23.75L21.694 23.75C22.3506 22.7974 23.0776 21.9224 23.875 21.125C28.3853 16.6147 35.677 13.9897 45.75 13.25ZM23.6833 40.2963L26.1582 42.7712L22.4459 46.4835L19.971 44.0086L23.6833 40.2963ZM19.971 36.584L22.4459 39.0589L16.2587 45.2461L13.7838 42.7712L19.971 36.584ZM16.2587 32.8717L18.7336 35.3466L15.0213 39.0589L12.5464 36.584L16.2587 32.8717ZM32.625 23.75C31.1753 23.75 30 24.9253 30 26.375C30 27.8247 31.1753 29 32.625 29C34.0747 29 35.25 27.8247 35.25 26.375C35.25 24.9253 34.0747 23.75 32.625 23.75Z" fill="white" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M45.75 13.25C45.0103 23.323 42.3853 30.6147 37.875 35.125C37.0751 35.9249 36.1993 36.6561 35.2475 37.3187L35.2475 41.2419L29.9975 46.4919L26.7938 40.8856L18.1212 32.2121L12.5 29L17.75 23.75L21.694 23.75C22.3506 22.7974 23.0776 21.9224 23.875 21.125C28.3853 16.6147 35.677 13.9897 45.75 13.25ZM23.6833 40.2963L26.1582 42.7712L22.4459 46.4835L19.971 44.0086L23.6833 40.2963ZM19.971 36.584L22.4459 39.0589L16.2587 45.2461L13.7838 42.7712L19.971 36.584ZM16.2587 32.8717L18.7336 35.3466L15.0213 39.0589L12.5464 36.584L16.2587 32.8717ZM32.625 23.75C31.1753 23.75 30 24.9253 30 26.375C30 27.8247 31.1753 29 32.625 29C34.0747 29 35.25 27.8247 35.25 26.375C35.25 24.9253 34.0747 23.75 32.625 23.75Z" fill="white" />
         </svg>
     )
 }
@@ -10,16 +10,16 @@ export const RocketIcon = () => {
 export const TranslateIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M42.355 40.6723L38.61 33.1998L34.865 40.6723" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M35.5474 39.3423H41.7074" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M38.6102 46.5002C33.7102 46.5002 29.7202 42.5275 29.7202 37.61C29.7202 32.71 33.6927 28.7202 38.6102 28.7202C43.5102 28.7202 47.5002 32.6925 47.5002 37.61C47.5002 42.5275 43.5277 46.5002 38.6102 46.5002Z" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M17.785 11.5H24.645C28.2675 11.5 30.0175 13.25 29.93 16.785V23.645C30.0175 27.2675 28.2675 29.0175 24.645 28.93H17.785C14.25 29 12.5 27.25 12.5 23.6275V16.7675C12.5 13.25 14.25 11.5 17.785 11.5Z" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M24.7674 18.2372H17.6624" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M21.1975 17.0474V18.2373" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M22.9823 18.2197C22.9823 21.2822 20.5848 23.7672 17.6448 23.7672" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M24.7673 23.7675C23.4898 23.7675 22.3348 23.085 21.5298 22" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12.5 34.25C12.5 41.0225 17.9775 46.5 24.75 46.5L22.9125 43.4375" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M47.5 23.75C47.5 16.9775 42.0225 11.5 35.25 11.5L37.0875 14.5625" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M42.355 40.6723L38.61 33.1998L34.865 40.6723" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M35.5474 39.3423H41.7074" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M38.6102 46.5002C33.7102 46.5002 29.7202 42.5275 29.7202 37.61C29.7202 32.71 33.6927 28.7202 38.6102 28.7202C43.5102 28.7202 47.5002 32.6925 47.5002 37.61C47.5002 42.5275 43.5277 46.5002 38.6102 46.5002Z" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M17.785 11.5H24.645C28.2675 11.5 30.0175 13.25 29.93 16.785V23.645C30.0175 27.2675 28.2675 29.0175 24.645 28.93H17.785C14.25 29 12.5 27.25 12.5 23.6275V16.7675C12.5 13.25 14.25 11.5 17.785 11.5Z" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M24.7674 18.2372H17.6624" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M21.1975 17.0474V18.2373" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22.9823 18.2197C22.9823 21.2822 20.5848 23.7672 17.6448 23.7672" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M24.7673 23.7675C23.4898 23.7675 22.3348 23.085 21.5298 22" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12.5 34.25C12.5 41.0225 17.9775 46.5 24.75 46.5L22.9125 43.4375" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M47.5 23.75C47.5 16.9775 42.0225 11.5 35.25 11.5L37.0875 14.5625" stroke="white" strokeWidth="2.625" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 }
@@ -28,7 +28,7 @@ export const TranslateIcon = () => {
 export const PiechartIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_214_711)">
+            <g clipPath="url(#clip0_214_711)">
                 <path d="M45.1245 15.1757C44.7954 14.8228 44.454 14.4814 44.1012 14.1521L43.0776 15.1757L30.7472 27.5062V10.0594V8.61109C30.507 8.60276 30.2657 8.59709 30.0235 8.59709C29.7812 8.59709 29.5401 8.60274 29.2999 8.61109C18.2437 8.99395 9.36719 18.1058 9.36719 29.2535C9.36719 40.6432 18.6335 49.9095 30.0235 49.9095C35.6755 49.9095 40.8038 47.627 44.5371 43.9361C44.5693 43.9131 44.6005 43.888 44.6293 43.8591C44.6581 43.8303 44.6834 43.7992 44.7063 43.7671C48.3971 40.0336 50.6797 34.9051 50.6797 29.2535C50.6797 23.8182 48.5684 18.8675 45.1245 15.1757ZM29.2999 10.0594V28.5296H10.8297C11.2025 18.5122 19.2822 10.4325 29.2999 10.0594ZM30.0235 48.462C19.6739 48.462 11.2116 40.2347 10.8297 29.977H29.7236L43.0776 43.3309C39.6481 46.5129 35.0594 48.462 30.0235 48.462ZM44.1012 42.3075L31.0471 29.2535L44.1009 16.1992C47.2832 19.6284 49.2323 24.2173 49.2323 29.2535C49.2323 34.2894 47.2832 38.8781 44.1012 42.3075Z" fill="white" />
                 <path d="M33.438 21.3767C33.5189 21.4102 33.6037 21.4265 33.6878 21.4265C33.8577 21.4265 34.0247 21.3601 34.1497 21.2353L42.623 12.7619C42.7455 12.6394 42.8143 12.4733 42.8143 12.3001C42.8143 12.127 42.7455 11.9609 42.623 11.8384C40.2363 9.45184 37.0632 8.13736 33.6879 8.13715C33.5147 8.13715 33.3487 8.20593 33.2262 8.32836C33.1037 8.45089 33.0349 8.61697 33.0349 8.7902V20.7734C33.0349 21.0376 33.194 21.2757 33.438 21.3767ZM34.3409 9.46155C36.9052 9.60654 39.3093 10.6024 41.2248 12.3132L34.3409 19.197V9.46155Z" fill="white" />
             </g>
@@ -38,7 +38,6 @@ export const PiechartIcon = () => {
                 </clipPath>
             </defs>
         </svg>
-
     )
 }
 
@@ -46,7 +45,7 @@ export const PiechartIcon = () => {
 export const PopoutIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24.75 16H19.5C17.567 16 16 17.567 16 19.5V31.75M16 31.75V40.5C16 42.433 17.567 44 19.5 44H28.25M16 31.75H28.25V44M44 35.25V40.5C44 42.433 42.433 44 40.5 44H28.25M44 16L32.625 27.375M44 16H37M44 16V23" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M24.75 16H19.5C17.567 16 16 17.567 16 19.5V31.75M16 31.75V40.5C16 42.433 17.567 44 19.5 44H28.25M16 31.75H28.25V44M44 35.25V40.5C44 42.433 42.433 44 40.5 44H28.25M44 16L32.625 27.375M44 16H37M44 16V23" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 }
@@ -55,7 +54,7 @@ export const PopoutIcon = () => {
 export const FingerprintIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21.062 40.132C21.0895 40.0858 21.1177 40.0396 21.1466 39.9937C23.2513 36.6479 24.4697 32.6913 24.4697 28.431C24.4697 24.9983 27.2523 22.2156 30.6851 22.2156C34.1178 22.2156 36.9004 24.9983 36.9004 28.431C36.9004 30.0114 36.7928 31.5675 36.5845 33.0926M33.2944 43.7265C34.245 41.8293 35.0242 39.8313 35.6121 37.7541M41.5773 39.5128C42.5795 35.9913 43.1161 32.2738 43.1161 28.4308C43.1161 21.5655 37.5507 16 30.6853 16C28.4211 16 26.2983 16.6053 24.4699 17.663M16.7007 35.212C17.6962 33.1628 18.2545 30.8621 18.2545 28.4308C18.2545 26.1666 18.8599 24.0438 19.9176 22.2154M30.6851 28.4311C30.6851 33.8964 29.1177 38.9955 26.4077 43.3033" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M21.062 40.132C21.0895 40.0858 21.1177 40.0396 21.1466 39.9937C23.2513 36.6479 24.4697 32.6913 24.4697 28.431C24.4697 24.9983 27.2523 22.2156 30.6851 22.2156C34.1178 22.2156 36.9004 24.9983 36.9004 28.431C36.9004 30.0114 36.7928 31.5675 36.5845 33.0926M33.2944 43.7265C34.245 41.8293 35.0242 39.8313 35.6121 37.7541M41.5773 39.5128C42.5795 35.9913 43.1161 32.2738 43.1161 28.4308C43.1161 21.5655 37.5507 16 30.6853 16C28.4211 16 26.2983 16.6053 24.4699 17.663M16.7007 35.212C17.6962 33.1628 18.2545 30.8621 18.2545 28.4308C18.2545 26.1666 18.8599 24.0438 19.9176 22.2154M30.6851 28.4311C30.6851 33.8964 29.1177 38.9955 26.4077 43.3033" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 }
@@ -64,7 +63,7 @@ export const FingerprintIcon = () => {
 export const RefreshIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21.062 40.132C21.0895 40.0858 21.1177 40.0396 21.1466 39.9937C23.2513 36.6479 24.4697 32.6913 24.4697 28.431C24.4697 24.9983 27.2523 22.2156 30.6851 22.2156C34.1178 22.2156 36.9004 24.9983 36.9004 28.431C36.9004 30.0114 36.7928 31.5675 36.5845 33.0926M33.2944 43.7265C34.245 41.8293 35.0242 39.8313 35.6121 37.7541M41.5773 39.5128C42.5795 35.9913 43.1161 32.2738 43.1161 28.4308C43.1161 21.5655 37.5507 16 30.6853 16C28.4211 16 26.2983 16.6053 24.4699 17.663M16.7007 35.212C17.6962 33.1628 18.2545 30.8621 18.2545 28.4308C18.2545 26.1666 18.8599 24.0438 19.9176 22.2154M30.6851 28.4311C30.6851 33.8964 29.1177 38.9955 26.4077 43.3033" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M21.062 40.132C21.0895 40.0858 21.1177 40.0396 21.1466 39.9937C23.2513 36.6479 24.4697 32.6913 24.4697 28.431C24.4697 24.9983 27.2523 22.2156 30.6851 22.2156C34.1178 22.2156 36.9004 24.9983 36.9004 28.431C36.9004 30.0114 36.7928 31.5675 36.5845 33.0926M33.2944 43.7265C34.245 41.8293 35.0242 39.8313 35.6121 37.7541M41.5773 39.5128C42.5795 35.9913 43.1161 32.2738 43.1161 28.4308C43.1161 21.5655 37.5507 16 30.6853 16C28.4211 16 26.2983 16.6053 24.4699 17.663M16.7007 35.212C17.6962 33.1628 18.2545 30.8621 18.2545 28.4308C18.2545 26.1666 18.8599 24.0438 19.9176 22.2154M30.6851 28.4311C30.6851 33.8964 29.1177 38.9955 26.4077 43.3033" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 
@@ -74,7 +73,7 @@ export const OperationEfficienyIcon = () => {
     return (
         <svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" fill="black" />
-            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" stroke-width="0.5" />
+            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" strokeWidth="0.5" />
             <g filter="url(#filter0_di_0_1)">
                 <rect x="62" y="61" width="237" height="237" rx="118.5" fill="#050505" />
                 <rect x="62.5" y="61.5" width="236" height="236" rx="118" stroke="url(#paint0_linear_0_1)" />
@@ -97,8 +96,8 @@ export const OperationEfficienyIcon = () => {
                 </g>
             </g>
             <defs>
-                <filter id="filter0_di_0_1" x="28.1" y="27.1" width="306.8" height="306.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter0_di_0_1" x="28.1" y="27.1" width="306.8" height="306.8" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="1" dy="1" />
                     <feGaussianBlur stdDeviation="17.45" />
@@ -113,8 +112,8 @@ export const OperationEfficienyIcon = () => {
                     <feColorMatrix type="matrix" values="0 0 0 0 0.348003 0 0 0 0 0.431871 0 0 0 0 0.879167 0 0 0 0.12 0" />
                     <feBlend mode="normal" in2="shape" result="effect2_innerShadow_0_1" />
                 </filter>
-                <filter id="filter1_d_0_1" x="79.5" y="75.5" width="212.703" height="212.703" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter1_d_0_1" x="79.5" y="75.5" width="212.703" height="212.703" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="5" dy="2" />
                     <feGaussianBlur stdDeviation="7.75" />
@@ -123,8 +122,8 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter2_d_0_1" x="123.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter2_d_0_1" x="123.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
                     <feGaussianBlur stdDeviation="3.65" />
@@ -133,8 +132,8 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter3_d_0_1" x="147.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter3_d_0_1" x="147.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
                     <feGaussianBlur stdDeviation="3.65" />
@@ -143,8 +142,8 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter4_d_0_1" x="171.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter4_d_0_1" x="171.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
                     <feGaussianBlur stdDeviation="3.65" />
@@ -153,8 +152,8 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter5_d_0_1" x="195.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter5_d_0_1" x="195.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
                     <feGaussianBlur stdDeviation="3.65" />
@@ -163,8 +162,8 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter6_d_0_1" x="219.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter6_d_0_1" x="219.7" y="161.7" width="26.6" height="33.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="4" dy="-1" />
                     <feGaussianBlur stdDeviation="3.65" />
@@ -174,28 +173,28 @@ export const OperationEfficienyIcon = () => {
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
                 <linearGradient id="paint0_linear_0_1" x1="30.5" y1="-73" x2="210" y2="257" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stop-opacity="0" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_0_1" x1="133" y1="170" x2="133" y2="189" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#4F67E7" />
-                    <stop offset="1" stop-color="#2C3981" />
+                    <stop stopColor="#4F67E7" />
+                    <stop offset="1" stopColor="#2C3981" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_0_1" x1="157" y1="170" x2="157" y2="189" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#4F67E7" />
-                    <stop offset="1" stop-color="#2C3981" />
+                    <stop stopColor="#4F67E7" />
+                    <stop offset="1" stopColor="#2C3981" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_0_1" x1="181" y1="170" x2="181" y2="189" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#4F67E7" />
-                    <stop offset="1" stop-color="#2C3981" />
+                    <stop stopColor="#4F67E7" />
+                    <stop offset="1" stopColor="#2C3981" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_0_1" x1="205" y1="170" x2="205" y2="189" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#4F67E7" />
-                    <stop offset="1" stop-color="#2C3981" />
+                    <stop stopColor="#4F67E7" />
+                    <stop offset="1" stopColor="#2C3981" />
                 </linearGradient>
                 <linearGradient id="paint5_linear_0_1" x1="229" y1="170" x2="229" y2="189" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#4F67E7" />
-                    <stop offset="1" stop-color="#2C3981" />
+                    <stop stopColor="#4F67E7" />
+                    <stop offset="1" stopColor="#2C3981" />
                 </linearGradient>
             </defs>
         </svg>
@@ -209,7 +208,7 @@ export const BulbIcon = () => {
 
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M25.6667 39.932V45.1658C25.6667 47.5591 27.6067 49.4991 30 49.4991C32.3933 49.4991 34.3333 47.5591 34.3333 45.1658V39.932M30 10.5V12.6667M43.7893 16.2108L42.2573 17.7428M16.2108 16.2108L17.7428 17.7428M12.6667 30H10.5M49.5 30H47.3333M40.8333 30C40.8333 35.983 35.983 40.8333 30 40.8333C24.0169 40.8333 19.1667 35.983 19.1667 30C19.1667 24.0169 24.0169 19.1667 30 19.1667C35.983 19.1667 40.8333 24.0169 40.8333 30Z" stroke="white" stroke-width="4.33333" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M25.6667 39.932V45.1658C25.6667 47.5591 27.6067 49.4991 30 49.4991C32.3933 49.4991 34.3333 47.5591 34.3333 45.1658V39.932M30 10.5V12.6667M43.7893 16.2108L42.2573 17.7428M16.2108 16.2108L17.7428 17.7428M12.6667 30H10.5M49.5 30H47.3333M40.8333 30C40.8333 35.983 35.983 40.8333 30 40.8333C24.0169 40.8333 19.1667 35.983 19.1667 30C19.1667 24.0169 24.0169 19.1667 30 19.1667C35.983 19.1667 40.8333 24.0169 40.8333 30Z" stroke="white" strokeWidth="4.33333" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 }
@@ -218,7 +217,7 @@ export const BulbIcon = () => {
 export const UparrowIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_221_863)">
+            <g clipPath="url(#clip0_221_863)">
                 <path d="M38.125 43H21.875C21.013 43 20.1864 43.3424 19.5769 43.9519C18.9674 44.5614 18.625 45.388 18.625 46.25V49.5C18.625 50.362 18.9674 51.1886 19.5769 51.7981C20.1864 52.4076 21.013 52.75 21.875 52.75H38.125C38.987 52.75 39.8136 52.4076 40.4231 51.7981C41.0326 51.1886 41.375 50.362 41.375 49.5V46.25C41.375 45.388 41.0326 44.5614 40.4231 43.9519C39.8136 43.3424 38.987 43 38.125 43ZM38.125 49.5H21.875V46.25H38.125V49.5Z" fill="white" />
                 <path d="M50.6488 27.2261L31.1488 7.72612C30.998 7.57516 30.8189 7.45541 30.6217 7.3737C30.4246 7.29199 30.2133 7.24994 29.9999 7.24994C29.7865 7.24994 29.5752 7.29199 29.3781 7.3737C29.1809 7.45541 29.0018 7.57516 28.851 7.72612L9.35102 27.2261C9.12383 27.4534 8.96912 27.7429 8.90645 28.0581C8.84378 28.3732 8.87596 28.6999 8.99892 28.9968C9.12189 29.2937 9.33011 29.5475 9.59728 29.726C9.86444 29.9046 10.1786 29.9999 10.4999 30H18.6249V36.5C18.6259 37.3616 18.9686 38.1877 19.5779 38.797C20.1872 39.4063 21.0132 39.749 21.8749 39.75H38.1249C38.9865 39.7488 39.8125 39.4061 40.4217 38.7968C41.031 38.1876 41.3737 37.3616 41.3749 36.5V30H49.4999C49.8212 29.9999 50.1353 29.9046 50.4025 29.726C50.6697 29.5475 50.8779 29.2937 51.0009 28.9968C51.1238 28.6999 51.156 28.3732 51.0933 28.0581C51.0307 27.7429 50.876 27.4534 50.6488 27.2261ZM38.1249 26.75V36.5H21.8749V26.75H14.4228L29.9999 11.1729L45.577 26.75H38.1249Z" fill="white" />
             </g>
@@ -235,11 +234,11 @@ export const UparrowIcon = () => {
 export const AudioIcon = () => {
     return (
         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_221_857)">
-                <path d="M36.5 17C36.5 13.4101 33.5899 10.5 30 10.5C26.4101 10.5 23.5 13.4101 23.5 17V27.8333C23.5 31.4232 26.4101 34.3333 30 34.3333C33.5899 34.3333 36.5 31.4232 36.5 27.8333V17Z" stroke="white" stroke-width="4.33333" stroke-linecap="round" />
-                <path d="M30 43V49.5" stroke="white" stroke-width="4.33333" stroke-linecap="round" />
-                <path d="M21.3333 49.5H38.6666" stroke="white" stroke-width="4.33333" stroke-linecap="round" />
-                <path d="M45.1666 27.8334C45.1666 36.2097 38.3763 43 29.9999 43C21.6236 43 14.8333 36.2097 14.8333 27.8334" stroke="white" stroke-width="4.33333" stroke-linecap="round" />
+            <g clipPath="url(#clip0_221_857)">
+                <path d="M36.5 17C36.5 13.4101 33.5899 10.5 30 10.5C26.4101 10.5 23.5 13.4101 23.5 17V27.8333C23.5 31.4232 26.4101 34.3333 30 34.3333C33.5899 34.3333 36.5 31.4232 36.5 27.8333V17Z" stroke="white" strokeWidth="4.33333" strokeLinecap="round" />
+                <path d="M30 43V49.5" stroke="white" strokeWidth="4.33333" strokeLinecap="round" />
+                <path d="M21.3333 49.5H38.6666" stroke="white" strokeWidth="4.33333" strokeLinecap="round" />
+                <path d="M45.1666 27.8334C45.1666 36.2097 38.3763 43 29.9999 43C21.6236 43 14.8333 36.2097 14.8333 27.8334" stroke="white" strokeWidth="4.33333" strokeLinecap="round" />
             </g>
             <defs>
                 <clipPath id="clip0_221_857">
@@ -271,26 +270,26 @@ export const BrainIcon = () => {
 export const LineSvg = ({ className }: { className?: string }) => {
     return (
         <svg width="98" height="1500" viewBox="0 0 98 1659" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M48 0L47.9999 1564" stroke="#273373" stroke-width="3" stroke-dasharray="12 12" />
+            <path d="M48 0L47.9999 1564" stroke="#273373" strokeWidth="3" strokeDasharray="12 12" />
             <g filter="url(#filter0_d_0_1)">
                 <rect x="17" y="210" width="62" height="62" rx="31" fill="black" />
-                <rect x="17.75" y="210.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint0_linear_0_1)" stroke-width="1.5" />
-                <path d="M48 232.042V241L52.4792 243.687M64.125 241C64.125 249.906 56.9057 257.125 48 257.125C39.0944 257.125 31.875 249.906 31.875 241C31.875 232.094 39.0944 224.875 48 224.875C56.9057 224.875 64.125 232.094 64.125 241Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <rect x="17.75" y="210.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint0_linear_0_1)" strokeWidth="1.5" />
+                <path d="M48 232.042V241L52.4792 243.687M64.125 241C64.125 249.906 56.9057 257.125 48 257.125C39.0944 257.125 31.875 249.906 31.875 241C31.875 232.094 39.0944 224.875 48 224.875C56.9057 224.875 64.125 232.094 64.125 241Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </g>
             <g filter="url(#filter1_d_0_1)">
                 <rect x="17" y="1007" width="62" height="62" rx="31" fill="black" />
-                <rect x="17.75" y="1007.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint1_linear_0_1)" stroke-width="1.5" />
-                <path d="M40.0833 1041.17L42.9283 1037.75C44.0557 1036.4 44.6194 1035.72 45.361 1035.72C46.1026 1035.72 46.6663 1036.4 47.7938 1037.75L48.2061 1038.25C49.3336 1039.6 49.8972 1040.28 50.6389 1040.28C51.3803 1040.28 51.9442 1039.6 53.0715 1038.25L55.9166 1034.83" stroke="white" stroke-width="2" stroke-linecap="round" />
-                <path d="M63.8334 1038C63.8334 1045.46 63.8334 1049.2 61.5146 1051.51C59.196 1053.83 55.4639 1053.83 48.0001 1053.83C40.5362 1053.83 36.8042 1053.83 34.4855 1051.51C32.1667 1049.2 32.1667 1045.46 32.1667 1038C32.1667 1030.54 32.1667 1026.8 34.4855 1024.49C36.8042 1022.17 40.5362 1022.17 48.0001 1022.17C55.4639 1022.17 59.196 1022.17 61.5146 1024.49C63.0565 1026.03 63.5731 1028.19 63.7462 1031.67" stroke="white" stroke-width="2" stroke-linecap="round" />
+                <rect x="17.75" y="1007.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint1_linear_0_1)" strokeWidth="1.5" />
+                <path d="M40.0833 1041.17L42.9283 1037.75C44.0557 1036.4 44.6194 1035.72 45.361 1035.72C46.1026 1035.72 46.6663 1036.4 47.7938 1037.75L48.2061 1038.25C49.3336 1039.6 49.8972 1040.28 50.6389 1040.28C51.3803 1040.28 51.9442 1039.6 53.0715 1038.25L55.9166 1034.83" stroke="white" strokeWidth="2" strokeLinecap="round" />
+                <path d="M63.8334 1038C63.8334 1045.46 63.8334 1049.2 61.5146 1051.51C59.196 1053.83 55.4639 1053.83 48.0001 1053.83C40.5362 1053.83 36.8042 1053.83 34.4855 1051.51C32.1667 1049.2 32.1667 1045.46 32.1667 1038C32.1667 1030.54 32.1667 1026.8 34.4855 1024.49C36.8042 1022.17 40.5362 1022.17 48.0001 1022.17C55.4639 1022.17 59.196 1022.17 61.5146 1024.49C63.0565 1026.03 63.5731 1028.19 63.7462 1031.67" stroke="white" strokeWidth="2" strokeLinecap="round" />
             </g>
             <g filter="url(#filter2_d_0_1)">
                 <rect x="17" y="1580" width="62" height="62" rx="31" fill="black" />
-                <rect x="17.75" y="1580.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint2_linear_0_1)" stroke-width="1.5" />
-                <path d="M60.375 1611C60.375 1617.83 54.8346 1623.38 48 1623.38C44.8305 1623.38 41.9394 1622.18 39.75 1620.22L35.625 1616.5M35.625 1616.5V1623.38M35.625 1616.5H42.5M35.625 1611C35.625 1604.17 41.1655 1598.62 48 1598.62C51.1695 1598.62 54.0606 1599.82 56.25 1601.78L60.375 1605.5M60.375 1605.5V1598.62M60.375 1605.5H53.5" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
+                <rect x="17.75" y="1580.75" width="60.5" height="60.5" rx="30.25" stroke="url(#paint2_linear_0_1)" strokeWidth="1.5" />
+                <path d="M60.375 1611C60.375 1617.83 54.8346 1623.38 48 1623.38C44.8305 1623.38 41.9394 1622.18 39.75 1620.22L35.625 1616.5M35.625 1616.5V1623.38M35.625 1616.5H42.5M35.625 1611C35.625 1604.17 41.1655 1598.62 48 1598.62C51.1695 1598.62 54.0606 1599.82 56.25 1601.78L60.375 1605.5M60.375 1605.5V1598.62M60.375 1605.5H53.5" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
             </g>
             <defs>
-                <filter id="filter0_d_0_1" x="0.5" y="191.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter0_d_0_1" x="0.5" y="191.5" width="97" height="97" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1" />
                     <feOffset dx="1" dy="-1" />
@@ -300,8 +299,8 @@ export const LineSvg = ({ className }: { className?: string }) => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter1_d_0_1" x="0.5" y="988.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter1_d_0_1" x="0.5" y="988.5" width="97" height="97" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1" />
                     <feOffset dx="1" dy="-1" />
@@ -311,8 +310,8 @@ export const LineSvg = ({ className }: { className?: string }) => {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
-                <filter id="filter2_d_0_1" x="0.5" y="1561.5" width="97" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter2_d_0_1" x="0.5" y="1561.5" width="97" height="97" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1" />
                     <feOffset dx="1" dy="-1" />
@@ -323,19 +322,19 @@ export const LineSvg = ({ className }: { className?: string }) => {
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
                 </filter>
                 <linearGradient id="paint0_linear_0_1" x1="19.2012" y1="214.5" x2="85.2259" y2="222.97" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#94A5FF" />
-                    <stop offset="0.56944" stop-color="#7C5ED2" />
-                    <stop offset="1" stop-color="#203189" />
+                    <stop stopColor="#94A5FF" />
+                    <stop offset="0.56944" stopColor="#7C5ED2" />
+                    <stop offset="1" stopColor="#203189" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_0_1" x1="19.2012" y1="1011.5" x2="85.2259" y2="1019.97" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#94A5FF" />
-                    <stop offset="0.56944" stop-color="#7C5ED2" />
-                    <stop offset="1" stop-color="#203189" />
+                    <stop stopColor="#94A5FF" />
+                    <stop offset="0.56944" stopColor="#7C5ED2" />
+                    <stop offset="1" stopColor="#203189" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_0_1" x1="19.2012" y1="1584.5" x2="85.2259" y2="1592.97" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#94A5FF" />
-                    <stop offset="0.56944" stop-color="#7C5ED2" />
-                    <stop offset="1" stop-color="#203189" />
+                    <stop stopColor="#94A5FF" />
+                    <stop offset="0.56944" stopColor="#7C5ED2" />
+                    <stop offset="1" stopColor="#203189" />
                 </linearGradient>
             </defs>
         </svg>

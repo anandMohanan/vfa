@@ -36,7 +36,7 @@ export const OperationEfficiencySection = () => {
     return (
         <section className="lg:p-10 md:p-15 md:mt-16 ">
             <div className="flex flex-col gap-5 items-center justify-center">
-                <Button className={cn(" md:text-[20px] font-[500px] text-sm rounded-full  text-white bg-black w-fit",
+                <Button className={cn(" md:text-[20px] font-[500px] text-xl rounded-full  text-white bg-black w-fit",
                     " overflow-hidden whitespace-nowrap",
                     "bg-black ",
                     "lgxl:p-4 lg2xl:p-6 lg3xl:p-8 lgxl:px-16 lg2xl:px-20 lg3xl:px-24",
@@ -46,7 +46,7 @@ export const OperationEfficiencySection = () => {
                     secondary_jakarta.className)}>
                     Features Improvement
                 </Button>
-                <h3 className={cn("text-white lg:text-[36px] text-2xl p-2",
+                <h3 className={cn("text-white lg:text-[36px] text-4xl text-center p-2",
                     "text-transparent !bg-clip-text [background:linear-gradient(92.46deg,_#FFFFFF,_#999999)]",
                     secondary_jakarta.className)}>Operation Efficieny Reimagined </h3>
             </div>
@@ -77,7 +77,7 @@ export const OperationEfficiencySection = () => {
                     }
                 </div>
                 <div className="z-100 lg:block hidden">
-                    <Image alt="efficiency" src="/efficiency.png" width={800} height={800} className="h-[400px]" />
+                    <Image alt="efficiency" src="/efficiency.png" width={800} height={800} className="h-[400px] w-[100%]" />
                 </div>
                 <div className="z-100 md:hidden block">
                     <Image alt="efficiency" src="/mobile-operation-efficiency.png" width={800} height={800} />

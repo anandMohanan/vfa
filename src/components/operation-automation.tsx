@@ -37,7 +37,7 @@ export const OperationAutomationSection = () => {
                                     <h3 className={cn(
                                         "md:leading-[52px]",
                                         "capitalize font-medium text-center lg:text-left",
-                                        "md:text-4xl text-xl", primary_font.className)} >
+                                        "md:text-4xl text-2xl", primary_font.className)} >
                                         {`Automate workflows for `}
                                         <span className="text-transparent
                                         !bg-clip-text [background:linear-gradient(91.85deg,_#4e62ca,_#4a60d9)]
@@ -47,7 +47,7 @@ export const OperationAutomationSection = () => {
                                         collaboration
                                     </h3>
                                     <p className={cn("md:text-xl opacity-80 text-md lg:text-left text-center",
-                                        "leading-[27px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
+                                        "leading-[20px] font-light whitespace-pre-wrap ", secondary_jakarta.className)}>
                                         Enhance team communication and process flow,  as our agents  smoothly integrates with and automates
                                         your operational communications.
                                     </p>

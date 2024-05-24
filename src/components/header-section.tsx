@@ -41,7 +41,7 @@ export const HeaderSection = () => {
                                 {` That Listen And Speak`}
                             </h1>
                         </div>
-                        <p className={cn("text-white leading-10 md:w-[80%] opacity-90 w-[100%] lgxl:p-2",
+                        <p className={cn("text-white leading-10 md:w-[80%] opacity-80 w-[100%] lgxl:p-2",
                             "m-auto text-center font-thin md:text-[20px] text-[16px] lgxl:text-[20px] lg2xl:text-[24px] lg3xl:text-[50px] ", secondary_jakarta.className)}>
                             Imagine a team that never clocks out.
                             A customer service agent that’s all ears, 24/7.
@@ -54,29 +54,31 @@ export const HeaderSection = () => {
                 {/* Hero */}
 
                 {/* SVG */}
-                <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72  h-40  lgxl:h-70
+                <div className="flex flex-col gap-12 justify-around md:justify-start mt-14 md:mt-0">
+                    <div data-scroll data-scroll-speed="0.3" className="m-auto relative md:h-72  h-40  lgxl:h-70
                 lg2xl:h-120 lg3xl:h-140 overflow-hidden w-full">
-                    <LottieAnimation
-                        ani={ani}
-                        className="md:w-[500px] w-[400px] lgxl:w-[600px] lg2xl:w-[900px]
+                        <LottieAnimation
+                            ani={ani}
+                            className="md:w-[500px] w-[400px]  lgxl:w-[600px] lg2xl:w-[900px]
                         absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                        data-scroll data-scroll-speed="0.3"
-                    />
+                            data-scroll data-scroll-speed="0.3"
+                        />
+                    </div>
+                    {/* CTA */}
+                    <Link href="/submit" className={cn(buttonVariants(),
+                        "rounded-full lg:mb-8 m-auto md:my-4 md:px-16 md:py-8 px-12 py-8 text-[18px]",
+                        "md:text-[24px] lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 lgxl:my-8 ",
+                        "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
+                        " overflow-hidden whitespace-nowrap",
+                        "border-[1.5px] border-cornflowerblue-300",
+                        " hover:border-[1.5px]  hover:border-cornflowerblue-600 hover:bg-cornflowerblue-600",
+                        "text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
+                        "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
+                        primary_font.className
+                    )}>
+                        Activate your Agents
+                    </Link>
                 </div>
-                {/* CTA */}
-                <Link href="/submit" className={cn(buttonVariants(),
-                    "rounded-full lg:mb-8 m-auto md:my-4 md:px-16 md:py-8 px-12 py-8 text-[18px]",
-                    "md:text-[24px] lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 lgxl:my-8 ",
-                    "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
-                    " overflow-hidden whitespace-nowrap",
-                    "border-[1.5px] border-cornflowerblue-300",
-                    " hover:border-[1.5px]  hover:border-cornflowerblue-600 hover:bg-cornflowerblue-600",
-                    "text-transparent !bg-clip-text [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
-                    "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                    primary_font.className
-                )}>
-                    Activate your Agents
-                </Link>
             </div>
         </header >
     );

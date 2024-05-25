@@ -8,7 +8,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "VoiceFirst AI",
+    title: {
+        default: "VoiceFirst AI",
+        template: "%s | VoiceFirst AI",
+    },
     description: "VoiceFirst AI is pioneering voice-driven experiences.",
     metadataBase: new URL("https://voicefirstai.com"),
     twitter: {
@@ -18,7 +21,7 @@ export const metadata: Metadata = {
 
         title: "VoiceFirst AI",
         description: "VoiceFirst AI is pioneering voice-driven experiences.",
-        images: "/opengraph-image.png",
+        images: ["https://utfs.io/f/d59eb4b2-7f6f-48b2-9aa3-8bfbc0583e12-mdohhu.png"],
     },
     applicationName: 'VoiceFirst AI',
     referrer: 'origin-when-cross-origin',

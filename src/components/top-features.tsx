@@ -5,7 +5,7 @@ import { primary_font, secondary_jakarta } from "@/lib/font";
 import { cn } from "@/lib/utils";
 
 import CustomerCallFlow from "../../public/flow-6.json";
-import CustomerChatFlow from "../../public/customer-chat-flow.json";
+import CustomerChatFlow from "../../public/customerchat.json";
 
 import { LottieAnimation } from "./animation";
 import Link from "next/link";

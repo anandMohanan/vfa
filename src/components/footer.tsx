@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import { Button, buttonVariants } from "./ui/button";
-import { primary_font, secondary_jakarta } from "@/lib/font";
+import { buttonVariants } from "./ui/button";
+import { primary_font } from "@/lib/font";
 import Link from "next/link";
 
 export const FooterSection = () => {
@@ -75,49 +75,3 @@ export const FooterSection = () => {
         </footer>
     );
 };
-// <div className="flex flex-col gap-2"> <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Company</h3> <div> <a rel="noreferrer noopener" href="#" className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)} > Blog </a> </div> <div> <a rel="noreferrer noopener" href="#" className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)} > Careers </a>
-//     </div>
-//
-//     <div>
-//         <a
-//             rel="noreferrer noopener"
-//             href="#"
-//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-//         >
-//             Pricing
-//         </a>
-//     </div>
-// </div>
-//
-// <div className="flex flex-col gap-2">
-//     <h3 className={cn("font-bold text-lg text-white", primary_font.className)}>Resources</h3>
-//     <div>
-//         <a
-//             rel="noreferrer noopener"
-//             href="#"
-//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-//         >
-//             Documentation
-//         </a>
-//     </div>
-//
-//     <div>
-//         <a
-//             rel="noreferrer noopener"
-//             href="#"
-//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-//         >
-//             Papers
-//         </a>
-//     </div>
-//
-//     <div>
-//         <a
-//             rel="noreferrer noopener"
-//             href="#"
-//             className={cn("opacity-60 hover:opacity-100 text-white", secondary_jakarta.className)}
-//         >
-//             Presentation
-//         </a>
-//     </div>
-// </div>

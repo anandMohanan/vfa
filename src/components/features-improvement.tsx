@@ -2,13 +2,11 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import {
     Card,
-    CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "./ui/card";
-import { primary_font, secondary_jakarta } from "@/lib/font";
+import { primary_font  } from "@/lib/font";
 import {
     FingerprintIcon,
     PiechartIcon,
@@ -171,7 +169,7 @@ export const FeaturesImprovementSection = () => {
                                     <CardDescription
                                         className={cn(
                                             "py-2 text-sm text-whitesmoke md:text-[16px]",
-                                            secondary_jakarta.className,
+                                            primary_font.className,
                                         )}
                                     >
                                         {item.description}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button, buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
-import { primary_font, secondary_jakarta } from "@/lib/font";
+import { primary_font } from "@/lib/font";
 import Link from "next/link";
 
 export const ActivateSection = () => {
@@ -19,7 +19,7 @@ export const ActivateSection = () => {
                 <p
                     className={cn(
                         "m-auto w-[90%] text-center text-[16px] opacity-80 md:text-[25px] lg:m-0 lg:text-left   lg:leading-[25.2px] ",
-                        secondary_jakarta.className,
+                        primary_font.className,
                     )}
                 >
                     Have questions or need more info? Contact us about our innovative

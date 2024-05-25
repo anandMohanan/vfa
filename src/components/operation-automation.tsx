@@ -2,7 +2,7 @@ import { Button, buttonVariants } from "./ui/button";
 import ani from "../../public/operation-automation-flow.json";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { primary_font, secondary_jakarta } from "@/lib/font";
+import { primary_font  } from "@/lib/font";
 import { LottieAnimation } from "./animation";
 import Link from "next/link";
 
@@ -63,7 +63,7 @@ export const OperationAutomationSection = () => {
                     className={cn(
                       "text-md text-center opacity-80 md:text-xl lg:text-left",
                       "whitespace-pre-wrap font-light leading-[20px] ",
-                      secondary_jakarta.className,
+                      primary_font.className,
                     )}
                   >
                     Enhance team communication and process flow, as our agents

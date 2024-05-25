@@ -10,9 +10,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "VoiceFirst AI",
     description: "VoiceFirst AI is pioneering voice-driven experiences.",
+    metadataBase: new URL("https://voicefirstai.com"),
     twitter: {
         card: "summary_large_image",
-    }
+    },
+    openGraph: {
+
+        title: "VoiceFirst AI",
+        description: "VoiceFirst AI is pioneering voice-driven experiences.",
+        images: "/opengraph-image.png",
+    },
+    applicationName: 'VoiceFirst AI',
+    referrer: 'origin-when-cross-origin',
+    keywords: ['VoiceFirst Ai', 'Ai', 'Voice'],
 };
 
 export default function RootLayout({

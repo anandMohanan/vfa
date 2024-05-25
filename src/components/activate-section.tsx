@@ -49,7 +49,7 @@ export const ActivateSection = () => {
         </Link>
       </div>
       <div className="md:w-[100%] lg:w-[50%]">
-        <Image src="/activate.png" alt="activate" width={1000} height={800} />
+        <Image src="/activate.png" alt="activate" width={1000} height={800} priority/>
       </div>
     </section>
   );

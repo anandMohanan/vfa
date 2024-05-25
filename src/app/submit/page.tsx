@@ -2,6 +2,16 @@ import Image from "next/image"
 import { SubmitFormComponent } from "./submit-form"
 import { cn } from "@/lib/utils"
 import { primary_font } from "@/lib/font"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "VoiceFirst AI",
+    description: "VoiceFirst AI - Schedule a call with VoiceFirst AI",
+    twitter: {
+        card: "summary_large_image",
+    }
+};
+
 
 const SubmitPage = () => {
 

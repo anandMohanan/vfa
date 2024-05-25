@@ -8,6 +8,10 @@ import { Input } from "@/components/ui/input"
 import { isValidPhoneNumber } from "react-phone-number-input";
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
+import { useFormspark } from "@formspark/use-formspark"
+import { useTransition } from "react"
+import { useToast } from "@/components/ui/use-toast"
+import { Loader2 } from "lucide-react"
 
 const formSchema = z.object({
     company_name: z.string().min(2).max(50),
@@ -19,6 +23,10 @@ const formSchema = z.object({
 
 })
 export const SubmitFormComponent = () => {
+    const [submit, submitting] = useFormspark({
+        formId: process.env.NEXT_PUBLIC_FORMSPARK_ID!,
+    })
+    const [isPending, startTransition] = useTransition()
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -30,10 +38,19 @@ export const SubmitFormComponent = () => {
             founder_call: false
         },
     })
-    function onSubmit(values: z.infer<typeof formSchema>) {
-        // Do something with the form values.
-        // ✅ This will be type-safe and validated.
+    const { toast } = useToast()
+    async function onSubmit(values: z.infer<typeof formSchema>) {
         console.log(values)
+        startTransition(() => {
+            console.log(values)
+            submit({ ...values })
+        })
+        return toast({
+            title: "Thank you for your submission!",
+            description: "We will get back to you shortly.",
+            variant: "destructive",
+        })
+
     }
     return (
         <div className="flex items-center p-10">
@@ -133,7 +150,7 @@ export const SubmitFormComponent = () => {
                         )}
                     />
 
-                    <Button type="submit">Submit</Button>
+                    <Button type="submit">{isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
                 </form>
             </Form>
         </div>

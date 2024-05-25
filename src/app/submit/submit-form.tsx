@@ -21,6 +21,7 @@ const formSchema = z.object({
     founder_call: z.boolean().default(false).optional()
 
 })
+
 export const SubmitFormComponent = () => {
     const [submit, submitting] = useFormspark({
         formId: process.env.NEXT_PUBLIC_FORMSPARK_ID!,

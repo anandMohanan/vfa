@@ -59,7 +59,7 @@ export const SubmitFormComponent = () => {
         }
 
     }
-    const recaptchaChange = (value) => {
+    const recaptchaChange = (value: string | null) => {
         setCaptchaCompleted(true)
     }
     return (
@@ -159,7 +159,7 @@ export const SubmitFormComponent = () => {
                             </FormItem>
                         )}
                     />
-                    <Captcha sitekey={process.env.NEXT_PUBLIC_GOOGLE_CAPTCHA} onChange={recaptchaChange} />
+                    <Captcha sitekey={process.env.NEXT_PUBLIC_GOOGLE_CAPTCHA!} onChange={recaptchaChange} />
 
                     <Button type="submit" disabled={!captchaCompleted}>{submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
                 </form>

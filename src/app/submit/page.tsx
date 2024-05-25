@@ -30,7 +30,7 @@ const SubmitPage = () => {
                     </ul>
                 </div>
                 <div className="flex grow lg:h-[50vh]">
-                    <Image src="/activate.png" alt="activate" width={600} height={200} className="h-full w-full" />
+                    <Image src="/activate.png" alt="activate" width={600} height={200} className="h-full w-full" priority/>
                 </div>
             </div>
             <div className="grow ">

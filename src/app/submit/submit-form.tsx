@@ -11,6 +11,8 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { useFormspark } from "@formspark/use-formspark"
 import { useToast } from "@/components/ui/use-toast"
 import { Loader2 } from "lucide-react"
+import Captcha from "react-google-recaptcha"
+import { useState } from "react"
 
 const formSchema = z.object({
     company_name: z.string().min(2).max(50),
@@ -38,14 +40,27 @@ export const SubmitFormComponent = () => {
         },
     })
     const { toast } = useToast()
+    const [captchaCompleted, setCaptchaCompleted] = useState(false)
     async function onSubmit(values: z.infer<typeof formSchema>) {
-        await submit({ ...values })
-        toast({
-            title: "Thank you for your submission!",
-            description: "We will get back to you shortly.",
-            variant: "default",
-        })
+        if (captchaCompleted === false) {
+            toast({
+                title: "Error",
+                description: "Please complete captcha",
+                variant: "destructive",
+            })
+            return
+        } else {
+            await submit({ ...values })
+            toast({
+                title: "Thank you for your submission!",
+                description: "We will get back to you shortly.",
+                variant: "default",
+            })
+        }
 
+    }
+    const recaptchaChange = (value) => {
+        setCaptchaCompleted(true)
     }
     return (
         <div className="flex items-center p-10">
@@ -144,8 +159,9 @@ export const SubmitFormComponent = () => {
                             </FormItem>
                         )}
                     />
+                    <Captcha sitekey={process.env.NEXT_PUBLIC_GOOGLE_CAPTCHA} onChange={recaptchaChange} />
 
-                    <Button type="submit">{submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
+                    <Button type="submit" disabled={!captchaCompleted}>{submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
                 </form>
             </Form>
         </div>

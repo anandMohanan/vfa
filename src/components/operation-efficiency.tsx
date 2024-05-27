@@ -67,7 +67,7 @@ export const OperationEfficiencySection = () => {
                     Operation Efficieny Reimagined{" "}
                 </h3>
             </div>
-            <div className="flex flex-col p-10 md:flex-row md:gap-12 lg:gap-0">
+            <div className="flex flex-col lg:p-10 p-4 md:flex-row md:gap-12 lg:gap-0">
                 <div className="">
                     {EfficienceInfo1.map((item, index) => {
                         return (

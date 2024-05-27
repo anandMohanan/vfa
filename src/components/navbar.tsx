@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { primary_font } from "@/lib/font";
+import { TryDemoButton } from "./cta-buttons";
 
 export const Navbar = () => {
     return (
@@ -89,43 +89,9 @@ export const Navbar = () => {
                 </Link>
             </div>
             <div className="flex w-full justify-end gap-4 md:ml-auto md:w-auto md:gap-2 lg:gap-4">
-                <Link
-                    href={"/submit"}
-                    className={cn(
-                        buttonVariants(),
-                        "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.61)]",
-                        "px-4 py-4 md:px-6 md:py-6",
-                        "text-md border-[1px] border-solid border-cornflowerblue-300",
-                        "hover:box-border hover:border-[1px] hover:border-solid hover:bg-cornflowerblue-300",
-                        " text-xl hover:border-cornflowerblue-600",
-                        "hover:shadow-[0px_0px_30px_rgba(82,_79,_255,_0.61)]",
-                    )}
-                >
-                    Try Demo{" "}
-                </Link>
+                <TryDemoButton />
             </div>
         </nav>
     );
-    // [border-image:linear-gradient(97.31deg, #94A5FF 3.97%, #7C5ED2 58.6%, #203189 99.91%)]
 };
 
-// <div className="hidden lg:flex m-auto text-xl  lg:gap-x-6"> <Link href={``} className="text-white lg:ml-3 transition-colors hover:text-cornflowerblue-400 hover:bg-gradient-to-r hover:from-[#698aff] hover:to-[#3f5399] hover:text-transparent hover:bg-clip-text" > Docs </Link> <Link href={``} className="text-white lg:ml-3 transition-colors hover:text-cornflowerblue-400 hover:bg-gradient-to-r hover:from-[#698aff] hover:to-[#3f5399] hover:text-transparent hover:bg-clip-text" > Integration </Link>
-//     <Link
-//         href="/"
-//         className="text-white lg:ml-3 transition-colors hover:text-cornflowerblue-400 hover:bg-gradient-to-r hover:from-[#698aff] hover:to-[#3f5399] hover:text-transparent hover:bg-clip-text"
-//     >
-//         Pricing
-//     </Link>
-//     <Link
-//         href="/"
-//         className="text-white lg:ml-3 transition-colors hover:text-cornflowerblue-400 hover:bg-gradient-to-r hover:from-[#698aff] hover:to-[#3f5399] hover:text-transparent hover:bg-clip-text"
-//     >
-//         Case Study
-//     </Link>
-//     <Link
-//         href="/"
-//         className="text-white lg:ml-3 transition-colors hover:text-cornflowerblue-400 hover:bg-gradient-to-r hover:from-[#698aff] hover:to-[#3f5399] hover:text-transparent hover:bg-clip-text"
-//     >
-//         Blog
-//     </Link>
-// </div>

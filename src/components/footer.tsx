@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
-import { buttonVariants } from "./ui/button";
 import { primary_font } from "@/lib/font";
-import Link from "next/link";
+import { TalktoUsNowButton } from "./cta-buttons";
 
 export const FooterSection = () => {
     return (
@@ -38,7 +37,7 @@ export const FooterSection = () => {
                             </clipPath>
                         </defs>
                     </svg>
-                    <Link href={`/submit`} className={cn(buttonVariants(), "")}>Talk to us Now </Link>
+                    <TalktoUsNowButton />
                 </div>
 
                 <div className="flex flex-col gap-2">

@@ -1,8 +1,7 @@
 import Image from "next/image";
-import { Button, buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { primary_font } from "@/lib/font";
-import Link from "next/link";
+import { EnableVoicefirstAiButton } from "./cta-buttons";
 
 export const ActivateSection = () => {
     return (
@@ -25,28 +24,7 @@ export const ActivateSection = () => {
                     Have questions or need more info? Contact us about our innovative
                     Voice AI solutions.
                 </p>
-                <Link
-                    href="/submit"
-                    className={cn(
-                        buttonVariants(),
-                        " m-auto rounded-full px-12 py-4 text-2xl md:px-16 md:py-8 lg:m-0",
-                        " shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
-                        " whitespace-nowrap border-[1.5px] border-cornflowerblue-300 hover:bg-darkslategray-400",
-                        " hover:border-[1.5px]  hover:border-cornflowerblue-600",
-                        "w-fit bg-transparent",
-                        primary_font.className,
-                    )}
-                >
-                    <span
-                        className="
-!bg-clip-text text-[20px] font-extrabold text-transparent [-webkit-background-clip:text]
-[-webkit-text-fill-color:transparent] [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)] 
-                      md:text-[24px]
-                "
-                    >
-                        Enable VoiceFirstAI
-                    </span>
-                </Link>
+                <EnableVoicefirstAiButton />
             </div>
             <div className="md:w-[100%] lg:w-[50%]">
                 <Image src="/activate.png" alt="activate" width={1000} height={800} />

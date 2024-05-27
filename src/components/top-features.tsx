@@ -42,10 +42,9 @@ export const TopFeaturesSection = () => {
          lg:w-1/2 lg:items-center lg:justify-center lgxl:p-0"
                 >
                     <div className="flex flex-col gap-6 ">
-                        <Badge
+                        <h3
                             className={cn(
                                 "m-auto w-fit text-center text-[16px] text-white md:text-[20px]  lg:m-0",
-                                "border-[0.3px] bg-black",
                                 "lgxl:p-4 lgxl:px-16 lg2xl:p-6 lg2xl:px-20 lg3xl:p-8 lg3xl:px-24",
                                 "!bg-clip-text text-transparent [background:linear-gradient(91.92deg,_#fff,_#698aff)]",
                                 "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px]",
@@ -54,7 +53,7 @@ export const TopFeaturesSection = () => {
                             )}
                         >
                             Customer Support
-                        </Badge>
+                        </h3>
                         <h3
                             className={cn(
                                 "text-[24px] font-[500px] text-white md:text-[35.94px]",
@@ -113,10 +112,9 @@ export const TopFeaturesSection = () => {
          lg:w-1/2 lg:items-center lg:justify-center lgxl:p-0"
                 >
                     <div className="flex flex-col gap-6 ">
-                        <Badge
+                        <h3
                             className={cn(
                                 "m-auto w-fit text-center text-[16px] text-white md:text-[20px]  lg:m-0",
-                                "border-[0.3px] bg-black",
                                 "lgxl:p-4 lgxl:px-16 lg2xl:p-6 lg2xl:px-20 lg3xl:p-8 lg3xl:px-24",
                                 "!bg-clip-text text-transparent [background:linear-gradient(91.92deg,_#fff,_#698aff)]",
                                 "lgxl:text-[28px] lg2xl:text-[36px] lg3xl:text-[42px]",
@@ -125,7 +123,7 @@ export const TopFeaturesSection = () => {
                             )}
                         >
                             Agent-driven Outreach
-                        </Badge>
+                        </h3>
                         <h3
                             className={cn(
                                 "text-[24px] font-[500px] text-white md:text-[35.94px]",

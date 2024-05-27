@@ -2,6 +2,8 @@ import {
     AudioIcon,
     BrainIcon,
     BulbIcon,
+    MobileEfficiencyIcon,
+    OperationEfficienyIcon,
     UparrowIcon,
 } from "@/lib/icons";
 import { Button } from "./ui/button";
@@ -9,6 +11,8 @@ import { cn } from "@/lib/utils";
 import { primary_font } from "@/lib/font";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
+import { LottieAnimation } from "./animation";
+import efficiency from "../../public/efficenicy.json";
 
 export const OperationEfficiencySection = () => {
     const EfficienceInfo1 = [
@@ -37,7 +41,7 @@ export const OperationEfficiencySection = () => {
         },
     ];
     return (
-        <section className="md:p-15 md:mt-16 lg:p-10 lgxl:mt-2 ">
+        <section className="md:p-15 md:mt-16 lg:p-30 lgxl:mt-2 ">
             <div className="flex flex-col items-center justify-center gap-5">
                 <Button
                     className={cn(
@@ -98,22 +102,30 @@ export const OperationEfficiencySection = () => {
                         );
                     })}
                 </div>
-                <div className="z-100 hidden lg:block">
-                    <Image
-                        alt="efficiency"
-                        src="/efficiency.png"
-                        width={800}
-                        height={800}
-                        className="h-[400px] w-[100%]"
-                    />
+                <div className="z-100 hidden lg1000:hidden  lg:block relative">
+                    {
+                        // <Image
+                        //     alt="efficiency"
+                        //     src="/efficiency.png"
+                        //     width={800}
+                        //     height={800}
+                        //     className="h-[400px] w-[100%]"
+                        // />
+                    }
+                    <OperationEfficienyIcon />
+                    <LottieAnimation className="absolute -top-[25%] right-[4%]" ani={efficiency} />
                 </div>
-                <div className="z-100 block md:hidden">
-                    <Image
-                        alt="efficiency"
-                        src="/mobile-operation-efficiency.png"
-                        width={800}
-                        height={800}
-                    />
+                <div className="relative z-100 block md:hidden flex items-center justify-center">
+                    {
+                        // <Image
+                        //     alt="efficiency"
+                        //     src="/mobile-operation-efficiency.png"
+                        //     width={800}
+                        //     height={800}
+                        // />
+                    }
+                    <MobileEfficiencyIcon />
+                    <LottieAnimation className="absolute" ani={efficiency} />
                 </div>
                 <div className="mt-20 md:mt-0">
                     {EfficienceInfo2.map((item, index) => {

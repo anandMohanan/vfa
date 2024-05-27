@@ -22,6 +22,8 @@ const config = {
                 lgxl: "2000px",
                 lg2xl: "2500px",
                 lg3xl: "3000px",
+                lg1000: "1000px",
+                lg1450: "1450px",
             },
             colors: {
                 border: "hsl(var(--border))",

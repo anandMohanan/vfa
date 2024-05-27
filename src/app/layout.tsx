@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { FooterSection } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
+import { CSPostHogProvider } from "./posthog-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,12 +39,14 @@ export default function RootLayout({
             <head>
                 <meta name="google-site-verification" content="b-3N7Dreasf0Mag5FQiD9Gwd7YUdWRYdu36pGjajm-c" />
             </head>
-            <body className={inter.className}>
-                <Navbar />
-                {children}
-                <Toaster />
-                <FooterSection />
-            </body>
+            <CSPostHogProvider>
+                <body className={inter.className}>
+                    <Navbar />
+                    {children}
+                    <Toaster />
+                    <FooterSection />
+                </body>
+            </CSPostHogProvider>
         </html>
     );
 }

@@ -13,6 +13,9 @@ import { useToast } from "@/components/ui/use-toast"
 import { Loader2 } from "lucide-react"
 import Captcha from "react-google-recaptcha"
 import { useState } from "react"
+import { Textarea } from "@/components/ui/textarea"
+import { Select, SelectItem, SelectTrigger, SelectValue, SelectContent } from "@/components/ui/select"
+import { usePostHog } from "posthog-js/react"
 
 const formSchema = z.object({
     company_name: z.string().min(2).max(50),
@@ -25,6 +28,7 @@ const formSchema = z.object({
 })
 
 export const SubmitFormComponent = () => {
+    const posthog = usePostHog()
     const [submit, submitting] = useFormspark({
         formId: process.env.NEXT_PUBLIC_FORMSPARK_ID!,
     })
@@ -42,6 +46,7 @@ export const SubmitFormComponent = () => {
     const { toast } = useToast()
     const [captchaCompleted, setCaptchaCompleted] = useState(false)
     async function onSubmit(values: z.infer<typeof formSchema>) {
+        posthog.capture("Submit Form", values)
         if (captchaCompleted === false) {
             toast({
                 title: "Error",
@@ -60,6 +65,7 @@ export const SubmitFormComponent = () => {
 
     }
     const recaptchaChange = (value: string | null) => {
+        posthog.capture("Captcha Checked")
         setCaptchaCompleted(true)
     }
     return (
@@ -114,8 +120,8 @@ export const SubmitFormComponent = () => {
                                     Use of Voice First Agents
                                 </FormLabel>
                                 <FormControl>
-                                    <Input placeholder="What are you hoping to use Voice First Agents for?"
-                                        className="bg-black border-cornflowerblue-200 text-white  "
+                                    <Textarea placeholder="What are you hoping to use Voice First Agents for?"
+                                        className=" bg-black border-cornflowerblue-200 text-white  "
                                         {...field} />
                                 </FormControl>
                                 <FormMessage />
@@ -130,11 +136,20 @@ export const SubmitFormComponent = () => {
                                 <FormLabel className="text-white text-[16px]" htmlFor={field.name}>
                                     Expected Customer Engagements
                                 </FormLabel>
-                                <FormControl>
-                                    <Input placeholder="No of expected customer engagements per month "
-                                        className="bg-black border-cornflowerblue-200 text-white  "
-                                        {...field} />
-                                </FormControl>
+                                <Select onValueChange={field.onChange}>
+                                    <FormControl>
+                                        <SelectTrigger className="bg-black border-cornflowerblue-200 text-white  ">
+                                            <SelectValue placeholder="No of expected customer engagements per month " className="bg-black 
+                                            border-cornflowerblue-200 text-white  " />
+                                        </SelectTrigger>
+                                    </FormControl>
+                                    <SelectContent className="bg-black text-white hover:cornflowerblue-200">
+                                        <SelectItem value="<5k">{"<5k"}</SelectItem>
+                                        <SelectItem value="5k-10k">{"5k-10k"}</SelectItem>
+                                        <SelectItem value="10k-100k">{"10k - 100k"}</SelectItem>
+                                        <SelectItem value="100k-1m">{"100k - 1m"}</SelectItem>
+                                    </SelectContent>
+                                </Select>
                                 <FormMessage />
                             </FormItem>
                         )}

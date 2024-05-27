@@ -54,7 +54,7 @@ const Phone = <TFormValues extends FieldValues>({
                     </FormLabel>
                     <FormControl>
                         <RPNInput.default
-                            defaultCountry="ET"
+                            defaultCountry="CH"
                             className={cn("flex ")}
                             flagComponent={FlagComponent}
                             countrySelectComponent={CountrySelect}
@@ -127,7 +127,7 @@ const CountrySelect = ({
             </PopoverTrigger>
             <PopoverContent className="w-[300px] p-0 bg-black">
                 <Command>
-                    <CommandList>
+                    <CommandList className="bg-black">
                         <ScrollArea className="h-72">
                             <CommandInput placeholder="Search country..." />
                             <CommandEmpty>No country found.</CommandEmpty>

@@ -48,26 +48,26 @@ export const FooterSection = () => {
                             primary_font.className,
                         )}
                     >
-                        Company HeadQuarters
+                        Company
                     </h3>
                     <div className="flex flex-col gap-4">
-                        <div
-                            className={cn(
-                                "text-white opacity-60",
-                            )}
-                        >
-                            <span className="font-extrabold text-lg opacity-100">Switzerland:  <br /></span>
-                            Rte de Chavannes 13
-                            1007, Switzerland
-                        </div>
-                        <div
-                            className={cn(
-                                "text-white opacity-60",
-                            )}
-                        >
-                            <span className="font-bold text-lg opacity-100">USA: <br /></span>
-                            8 The Green, Ste A, Dover, DE 19901
-                        </div>
+                        <ul className="flex flex-col gap-2">
+                            <li
+                                className={cn(
+                                    "text-white opacity-60 list-disc",
+                                )}
+                            >
+                                Rte de Chavannes 13
+                                1007, Switzerland
+                            </li>
+                            <li
+                                className={cn(
+                                    "text-white opacity-60 list-disc",
+                                )}
+                            >
+                                8 The Green, Ste A, Dover, DE 19901
+                            </li>
+                        </ul>
                     </div>
 
                 </div>

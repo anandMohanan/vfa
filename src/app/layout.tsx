@@ -10,10 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: {
-        default: "VoiceFirst AI",
+        default: "VoiceFirst AI: Leading the Voice-Driven Workflow Revolution | Simplify Operations with Intelligent Voice AI Agents",
         template: "%s | VoiceFirst AI",
     },
-    description: "VoiceFirst AI is pioneering voice-driven experiences.",
+    description: "Transform your business with VoiceFirst AI's advanced voice-driven agents. Enhance customer engagement, streamline hiring processes, and optimize operations with our intelligent AI solutions. Discover how VoiceFirst AI can revolutionize your workflow and boost efficiency.",
     metadataBase: new URL("https://voicefirstai.com"),
     twitter: {
         card: "summary_large_image",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     },
     applicationName: 'VoiceFirst AI',
     referrer: 'origin-when-cross-origin',
-    keywords: ['VoiceFirst Ai', 'Ai', 'Voice'],
+    keywords: ['VoiceFirst Ai', 'Ai', 'Voice', 'Voice Ai', 'Ai Agent', 'Ai Assistant', 'Workflow Automation'],
 };
 
 export default function RootLayout({

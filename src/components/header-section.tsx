@@ -4,7 +4,7 @@ import { Button, buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { primary_font } from "@/lib/font";
 import { LottieAnimation } from "./animation";
-import Link from "next/link";
+import { ActivateAiButton } from "./cta-buttons";
 
 export const HeaderSection = () => {
     return (
@@ -76,8 +76,6 @@ export const HeaderSection = () => {
                 {/* SVG */}
                 <div className="mt-14 flex flex-col justify-around gap-12 md:mt-0 md:justify-start">
                     <div
-                        data-scroll
-                        data-scroll-speed="0.3"
                         className="lgxl:h-70 lg2xl:h-120 lg3xl:h-140  relative  m-auto
                 h-40 w-full overflow-hidden md:h-72"
                     >
@@ -90,23 +88,7 @@ export const HeaderSection = () => {
                         />
                     </div>
                     {/* CTA */}
-                    <Link
-                        href="/submit"
-                        className={cn(
-                            buttonVariants(),
-                            "m-auto rounded-full px-12 py-8 text-[18px] md:my-4 md:px-16 md:py-8 lg:mb-8",
-                            "md:text-[24px] lgxl:my-8 lgxl:p-8 lgxl:px-16 lg2xl:p-16 lg2xl:px-24 ",
-                            "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)] ",
-                            " overflow-hidden whitespace-nowrap",
-                            "border-[1.5px] border-cornflowerblue-300",
-                            " hover:border-[1.5px]  hover:border-cornflowerblue-600 hover:bg-cornflowerblue-600",
-                            "!bg-clip-text text-transparent [background:linear-gradient(91.92deg,_#fff,_#c6d9ff)]",
-                            "[-webkit-background-clip:text]  [-webkit-text-fill-color:transparent]",
-                            primary_font.className,
-                        )}
-                    >
-                        Activate your Agents
-                    </Link>
+                    <ActivateAiButton />
                 </div>
             </div>
         </header>

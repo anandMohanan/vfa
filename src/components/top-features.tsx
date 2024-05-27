@@ -1,5 +1,4 @@
 import { LineSvg } from "@/lib/icons";
-import { Button, buttonVariants } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { primary_font } from "@/lib/font";
 import { cn } from "@/lib/utils";
@@ -8,7 +7,7 @@ import CustomerCallFlow from "../../public/flow-6.json";
 import CustomerChatFlow from "../../public/customerchat.json";
 
 import { LottieAnimation } from "./animation";
-import Link from "next/link";
+import { CustomerFirstButton, IncreaseYourSalesButton } from "./cta-buttons";
 
 export const TopFeaturesSection = () => {
     return (
@@ -82,19 +81,7 @@ export const TopFeaturesSection = () => {
                             ensures every customer feels heard and helped, right when they
                             need it.
                         </p>
-                        <Link
-                            href="/submit"
-                            className={cn(
-                                buttonVariants(),
-                                "m-auto w-fit rounded-none font-bold lg:m-0",
-                                "text-[16px] md:p-6 md:text-[24px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
-                                "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
-                                "lgxl:p-8 lg2xl:p-10 lg3xl:p-12",
-                                primary_font.className,
-                            )}
-                        >
-                            Customer First
-                        </Link>
+                        <CustomerFirstButton />
                     </div>
                 </div>
 
@@ -151,19 +138,7 @@ export const TopFeaturesSection = () => {
                             Proactively engage and follow up on leads, driving sales with
                             timely and relevant conversations initiated by our AI.
                         </p>
-                        <Link
-                            href="/submit"
-                            className={cn(
-                                buttonVariants(),
-                                "m-auto w-fit rounded-none font-bold lg:m-0",
-                                "text-[16px] md:p-6 md:text-[24px] lgxl:text-[34px] lg2xl:text-[42px] lg3xl:text-[50px]",
-                                "shadow-[1px_-1px_13.5px_4px_rgba(17,_14,_160,_0.53)]",
-                                "lgxl:p-8 lg2xl:p-10 lg3xl:p-12",
-                                primary_font.className,
-                            )}
-                        >
-                            Increase your sales
-                        </Link>
+                        <IncreaseYourSalesButton />
                     </div>
                 </div>
 

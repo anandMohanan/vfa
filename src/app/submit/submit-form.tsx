@@ -16,6 +16,7 @@ import { useState } from "react"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectItem, SelectTrigger, SelectValue, SelectContent } from "@/components/ui/select"
 import { usePostHog } from "posthog-js/react"
+import { cn } from "@/lib/utils"
 
 const formSchema = z.object({
     company_name: z.string().min(2).max(50),
@@ -174,9 +175,19 @@ export const SubmitFormComponent = () => {
                             </FormItem>
                         )}
                     />
-                    <Captcha sitekey={process.env.NEXT_PUBLIC_GOOGLE_CAPTCHA!} onChange={recaptchaChange} />
+                    <div className="flex md:flex-row flex-col gap-4">
+                        <Captcha sitekey={process.env.NEXT_PUBLIC_GOOGLE_CAPTCHA!} onChange={recaptchaChange} />
 
-                    <Button type="submit" disabled={!captchaCompleted}>{submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
+                        <Button type="submit" size={"lg"}
+                            className={cn(
+                                "shadow-[0px_0px_6.9px_rgba(82,_79,_255,_0.61)]",
+                                "px-4 py-4 md:px-12 md:py-8",
+                                "text-md border-[1px] border-solid border-cornflowerblue-300",
+                                "hover:box-border hover:border-[1px] hover:border-solid hover:bg-cornflowerblue-300",
+                                " text-xl hover:border-cornflowerblue-600",
+                                "hover:shadow-[0px_0px_30px_rgba(82,_79,_255,_0.61)]")}
+                            disabled={!captchaCompleted}>{submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}Submit</Button>
+                    </div>
                 </form>
             </Form>
         </div>

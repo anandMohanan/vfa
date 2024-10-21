@@ -204,7 +204,7 @@ export const OperationEfficienyIcon = () => {
             <path d="M627 328.5H546.5C542.634 328.5 539.5 325.366 539.5 321.5V209C539.5 205.134 536.366 202 532.5 202H481.5" stroke="url(#paint2_linear_0_1)" />
             <path d="M0 328.5H80.5C84.366 328.5 87.5 325.366 87.5 321.5V209C87.5 205.134 90.634 202 94.5 202H145.5" stroke="url(#paint3_linear_0_1)" />
             <rect x="141.25" y="0.25" width="359.5" height="359.5" rx="179.75" fill="black" />
-            <rect x="141.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" stroke-width="0.5" />
+            <rect x="141.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" strokeWidth="0.5" />
             <defs>
                 <linearGradient id="paint0_linear_0_1" x1="554.25" y1="48" x2="554.25" y2="174.5" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#697FF0" />
@@ -231,7 +231,7 @@ export const MobileEfficiencyIcon = () => {
     return (
         <svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" fill="black" />
-            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" stroke-width="0.5" />
+            <rect x="0.25" y="0.25" width="359.5" height="359.5" rx="179.75" stroke="#696EF0" strokeWidth="0.5" />
         </svg>
 
     )
